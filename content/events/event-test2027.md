@@ -1,10 +1,14 @@
 ---
-layout: sub-navigation
-title: ATProto Science Workshop - Mar 2026
-description: Join us for an intensive workshop exploring the intersection of scholarly communication and decentralized protocols. This hands-on event will bring together researchers, developers, and tool builders to collaborate on the future of science on ATProto.
+layout: event
+title: ATProto Science Workshop
+description: ATmosphereConf is the global AT Protocol community conference. Join us in Vancouver, BC, Canada, March 2026 at the UBC campus. Come early for two days of extended events, deep dives, and local activities, then gather for two full conference days with topics for everyone.
+startdate: 2026-03-26
+enddate: 2026-03-29
+city: Vancouver
+country: Canada
 date: 2025-12-11
 eleventyNavigation:
-  key: ATProto Science Workshop - Mar 2026
+  key: ATProto Science Workshop
   parent: Events
   order: 2
 image:
@@ -59,11 +63,11 @@ Officia amet voluptate anim laboris ullamco ea amet reprehenderit ullamco do ut 
 ## Want to Attend?
 
 > [!WARNING]
-> A ticket for the main AtmosphereConf event is required to attend ATScience in-person.
-
-Tickets for remote attendance will be free of charge, but registration is still required for planning purposes.
-
-[Purchase AtmosphereConf ticket ->](#)
+> **A ticket for AtmosphereConf event is required to attend ATScience in-person.**
+> - Tickets for remote attendance will be free of charge
+> - Registration is still required for planning purposes.
+>
+> **[Purchase AtmosphereConf ticket ->](#)**
 
 ## Schedule
 

@@ -1,12 +1,12 @@
 ---
 layout: collection
-title: Products
+title: Linksroll
 order: 3
-paginationHeading: Browse Products
+paginationHeading: Browse Links
 pagination:
-  data: products
+  data: links
   size: 10
-products:
+links:
   - url: "https://groundmist.xyz/"
     date: 2025-12-11
     data:
@@ -53,7 +53,7 @@ eleventyComputed:
   aside:
     title: Want to be Listed?
     content: |
-      We're constantly seeking out new products to showcase. If you want your AT science product listed, contact us on <a href="https://bsky.app/profile/atproto.science" target="_blank">Bluesky</a> or via <a href="mailto:hello@atproto.science">Email</a>.
+      We're constantly seeking out new links to showcase. If you want your AT science product listed, contact us on <a href="https://bsky.app/profile/atproto.science" target="_blank">Bluesky</a> or via <a href="mailto:hello@atproto.science">Email</a>.
 ---
 
-Discover innovative tools and platforms built on ATProto for the scientific community. From social knowledge networks and research feeds to AI-powered discovery tools and note-taking integrations, these products are transforming how researchers share, discover, and collaborate on scientific work in the decentralized web.
+Discover innovative tools and platforms built on ATProto for the scientific community. From social knowledge networks and research feeds to AI-powered discovery tools and note-taking integrations, these links are transforming how researchers share, discover, and collaborate on scientific work in the decentralized web.

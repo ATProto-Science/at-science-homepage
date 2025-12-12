@@ -3,7 +3,7 @@ import { govukEleventyPlugin } from '@x-govuk/govuk-eleventy-plugin'
 export default function(eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     stylesheets: ['/assets/styles.css'],
-    showBreadcrumbs: true,
+    showBreadcrumbs: false,
     titleSuffix: 'ATproto Science',
     icons: {
       shortcut: '/assets/icon/favicon.ico',
@@ -52,6 +52,53 @@ export default function(eleventyConfig) {
   // Passthrough copy for images and icons
   eleventyConfig.addPassthroughCopy('content/assets/images')
   eleventyConfig.addPassthroughCopy('content/assets/icon')
+
+  // Custom computed data for event metadata
+  eleventyConfig.addGlobalData('eleventyComputed', {
+    eventDescription: (data) => {
+      if (data.layout !== 'event') return data.description
+
+      const parts = []
+
+      // Format dates
+      if (data.startdate) {
+        const startDate = new Date(data.startdate)
+        const options = { year: 'numeric', month: 'long', day: 'numeric' }
+
+        if (data.enddate) {
+          const endDate = new Date(data.enddate)
+          // Check if same month and year
+          if (startDate.getMonth() === endDate.getMonth() &&
+              startDate.getFullYear() === endDate.getFullYear()) {
+            parts.push(`${startDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric' })}-${endDate.getDate()}, ${startDate.getFullYear()}`)
+          } else {
+            parts.push(`${startDate.toLocaleDateString('en-US', options)} - ${endDate.toLocaleDateString('en-US', options)}`)
+          }
+        } else {
+          parts.push(startDate.toLocaleDateString('en-US', options))
+        }
+      }
+
+      // Add location
+      const locationParts = []
+      if (data.city) locationParts.push(data.city)
+      if (data.country) locationParts.push(data.country)
+      if (locationParts.length > 0) {
+        parts.push(locationParts.join(', '))
+      }
+
+      const eventInfo = parts.join(' &bull; ')
+
+      // Combine event info with description, separated by double newline for markdown
+      if (eventInfo && data.description) {
+        return `**${eventInfo}**\n\n${data.description}`
+      } else if (eventInfo) {
+        return `**${eventInfo}**`
+      } else {
+        return data.description
+      }
+    }
+  })
 
   // Collections
   eleventyConfig.addCollection('events', (collection) =>

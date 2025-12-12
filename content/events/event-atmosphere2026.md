@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: ATmosphereConf - Mar 2026
 description: ATmosphereConf is the global AT Protocol community conference. Join us in Vancouver, BC, Canada, March 2026 at the UBC campus. Come early for two days of extended events, deep dives, and local activities, then gather for two full conference days with topics for everyone.
 eleventyNavigation:
