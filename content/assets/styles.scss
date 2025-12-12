@@ -1,12 +1,13 @@
 // Use GOV.UK Frontend
 $_font-family: system-ui, sans-serif;
 @use "pkg:govuk-frontend/dist/govuk" with (
+  $govuk-assets-path: "/at-science-homepage/assets/",
   $govuk-font-family: $_font-family,
   // $govuk-new-typography-scale: true,
-  $govuk-brand-colour: blue,
-  $govuk-link-colour: mediumblue,
-  $govuk-link-hover-colour: darkblue,
-  $govuk-link-visited-colour: indigo,
+  $govuk-brand-colour: #000080,
+  $govuk-link-colour: #0000ff,
+  $govuk-link-hover-colour: #000080,
+  $govuk-link-visited-colour: #4B0082,
   // $govuk-page-width: 1140px
 );
 

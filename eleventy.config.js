@@ -80,6 +80,7 @@ export default function(eleventyConfig) {
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
+    pathPrefix: '/at-science-homepage/',
     dir: {
       // The folder where all your content will live:
       input: 'content',
