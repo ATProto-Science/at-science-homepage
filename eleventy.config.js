@@ -5,6 +5,11 @@ export default function(eleventyConfig) {
     stylesheets: ['/assets/styles.css'],
     showBreadcrumbs: true,
     titleSuffix: 'ATproto Science',
+    icons: {
+      shortcut: '/assets/icon/favicon.ico',
+      mask: '/assets/icon/mask.svg',
+      touch: '/assets/icon/icon-180.png'
+    },
     serviceNavigation: {
       // serviceName: 'ATProto Science',
       // serviceUrl: '/',
@@ -36,16 +41,17 @@ export default function(eleventyConfig) {
     footer: {
       logo: false,
       contentLicence: {
-        html: 'Lorem Ipsum footer contentLicence'
+        html: 'All content is available under the <a class="govuk-footer__link" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>, except where otherwise stated.'
       },
       copyright: {
-        text: '© Lorem Ipsum footer copyright'
+        text: '© ATproto Science 2024-2025'
       },
     }
   })
 
-  // Passthrough copy for images
+  // Passthrough copy for images and icons
   eleventyConfig.addPassthroughCopy('content/assets/images')
+  eleventyConfig.addPassthroughCopy('content/assets/icon')
 
   // Collections
   eleventyConfig.addCollection('events', (collection) =>
@@ -80,7 +86,7 @@ export default function(eleventyConfig) {
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
-    pathPrefix: '/at-science-homepage/',
+    pathPrefix: process.env.ELEVENTY_ENV === 'production' ? '/at-science-homepage/' : '/',
     dir: {
       // The folder where all your content will live:
       input: 'content',

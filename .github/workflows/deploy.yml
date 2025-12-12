@@ -28,6 +28,8 @@ jobs:
         run: npm ci
       - name: Build with Eleventy
         run: npm run-script build
+        env:
+          ELEVENTY_ENV: production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
 
