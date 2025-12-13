@@ -6,6 +6,9 @@ startdate: 2026-04-06
 enddate: 2026-04-09
 city: Berlin
 country: Germany
+startButton:
+  href: "#"
+  text: Get Ticket
 date: 2025-12-11
 eleventyNavigation:
   key: ATscience Workshop
