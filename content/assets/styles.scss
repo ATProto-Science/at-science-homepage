@@ -1,14 +1,16 @@
+/** @format */
+
 // Use GOV.UK Frontend
 $_font-family: system-ui, sans-serif;
-@use "pkg:govuk-frontend/dist/govuk" with (
-  $govuk-font-family: $_font-family,
-  // $govuk-new-typography-scale: true,
-  $govuk-brand-colour: #000080,
-  $govuk-link-colour: #0000ff,
-  $govuk-link-hover-colour: #000080,
-  $govuk-link-visited-colour: #4B0082,
-  // $govuk-page-width: 1140px
+@use 'pkg:govuk-frontend/dist/govuk' with (
+    $govuk-font-family: $_font-family,
+    $govuk-new-typography-scale: true,
+    $govuk-brand-colour: #000080,
+    $govuk-link-colour: #0000ff,
+    $govuk-link-hover-colour: #000080,
+    $govuk-link-visited-colour: #4b0082,
+    $govuk-page-width: 1140px
 );
 
 // Use GOV.UK Eleventy Plugin components
-@use "pkg:@x-govuk/govuk-eleventy-plugin";
+@use 'pkg:@x-govuk/govuk-eleventy-plugin';

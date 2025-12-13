@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Test Event Science Workshop
+title: ATscience Workshop
 description: This is a test event for demonstration purposes only. An experimental gathering exploring decentralized science in Berlin's vibrant research community.
 startdate: 2026-04-06
 enddate: 2026-04-09
@@ -8,7 +8,7 @@ city: Berlin
 country: Germany
 date: 2025-12-11
 eleventyNavigation:
-  key: Test Event Science Workshop
+  key: ATscience Workshop
   parent: Events
   order: 2
 image:
@@ -18,7 +18,7 @@ image:
 author:
   - name: ATproto.science
     url: '/'
-showPagination: true
+showPagination: true #Important
 related:
   sections:
     - title: ATproto.science on the web
@@ -33,17 +33,6 @@ related:
           href: mailto:hello@atproto.science
 ---
 
-## Key Info
-**April 6-9, 2026**
-Berlin Innovation Hub
-Unter den Linden 6,
-10117 Berlin,
-Germany
-
-View on [Google Maps](#) | [OpenStreetMap](#)
-
----
-
 > [!WARNING]
 > THIS IS A TEST EVENT - NOT A REAL GATHERING
 
@@ -51,31 +40,19 @@ This is a demonstration event page showcasing the event template functionality. 
 
 The hypothetical event would include unconference sessions, collaborative coding sprints, and informal discussions at local cafés. Participants would explore how ATProto could integrate with European research infrastructure and FAIR data principles.
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.4489250601027!2d13.366682277233052!3d52.52531137206257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851740581b715%3A0x40f2dc0188ecad2!2sEDGE%20Workspaces%20Grand%20Central!5e0!3m2!1sen!2sde!4v1765584671217!5m2!1sen!2sde" style="border:0; width: 100%; min-width: 100%; max-width: 100%; height: 450px; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---
+
+View on [Google Maps](#) | [OpenStreetMap](#)
+
 ## Hypothetical Speakers
 
 - **Dr. Test McTesterson** - Fictional researcher in decentralized systems
 - **Sample Speaker** - Placeholder for template demonstration
 - **Demo Presenter** - Example participant profile
 
-## Participation
-
-**Note: This is not a real event.** If this were a real workshop, participants would be invited to propose unconference sessions, share their work-in-progress, and collaborate on experimental prototypes.
-
-<div style="border: 1px solid #b1b4b6; padding: 20px; min-height: 600px;">
-<iframe src="https://tally.so/embed/Zj8K0o?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" title="Test Event Registration"></iframe>
-</div>
-
-[Template Demo Link ->](#)
-
-## Registration
-
-> [!WARNING]
-> **THIS IS A TEST EVENT PAGE**
-> - This event does not exist
-> - All content is for demonstration purposes
-> - No registration is actually available
-
-## Sample Schedule
+## Sample Agenda
 
 **Day 1 - Kickoff**
 - 09:00 - Hypothetical welcome session
@@ -87,6 +64,23 @@ The hypothetical event would include unconference sessions, collaborative coding
 **Day 4 - Wrap-up**
 - 14:00 - Fictional demo presentations
 - 16:00 - Test event conclusion
+
+## Get a Ticket
+
+> [!WARNING]
+> **THIS IS A TEST EVENT PAGE**
+> - This event does not exist
+> - All content is for demonstration purposes
+> - No registration is actually available
+
+## Register to Participate
+
+**Note: This is not a real event.** If this were a real workshop, participants would be invited to propose unconference sessions, share their work-in-progress, and collaborate on experimental prototypes.
+
+<iframe data-tally-src="https://tally.so/embed/Zj8K0o?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" style="border: 1px solid #b1b4b6; width: 100%; min-width: 100%; max-width: 100%; display: block;" title="Test Event Registration"></iframe>
+
+<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+
 
 ## FAQ
 
