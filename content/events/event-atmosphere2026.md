@@ -60,8 +60,12 @@ To attend in person at ATScience 2026, you'll need a ticket to the main Atmosphe
 
 > [!WARNING]
 > A ticket for **AtmosphereConf2026** is required if you plan to attend ATScience 2026 **in-person**.
->
-> **<a href="https://ti.to/atmosphereconf/atmosphereconf2026" target="_blank">Purchase AtmosphereConf2026 ticket</a>**
+
+<tito-widget event="atmosphereconf/atmosphereconf2026" releases="early-bird,atscience"></tito-widget>
+
+<script src='https://js.tito.io/v2' async></script>
+
+<!-- > **<a href="https://ti.to/atmosphereconf/atmosphereconf2026" target="_blank">Purchase AtmosphereConf2026 ticket</a>** -->
 
 <!-- > [!TIP] Attending online-only?
 > Tickets for online-only attendance are free of charge.
