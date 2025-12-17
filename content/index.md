@@ -69,7 +69,40 @@ eleventyComputed:
 
 ## About Us
 
-ATProto Science is an initiative aimed at fostering an ecosystem for science on ATProto — developing tools, communities, and infrastructure for publishing, curation, data sharing, and social discourse around research. We also organize events and workshops to bring the community together.
+**Scientists have been early adopters of Bluesky,** recognising its potential for useful, constructive conversations about their work in an open social media environment where users and communities have better control of their data and experience.
+
+**But Bluesky is just the start,** with a wave of new apps emerging, all underpinned by the [ATprotocol](https://atproto.com/guides/overview) - the same technology used by Bluesky.
+
+That means:
+
+- one "ATproto" account works on all the apps, which can freely interoperate
+- you can move freely between them, keeping your content and friends
+- no-one is "locked in" to one platform
+- everyone can innovate to create better experiences.
+
+**atproto.science is therefore an ecosystem** — a network of scientists and scientific institutions, using a suite of interoperable apps, sharing and discussing their work.
+
+**atproto.science is also an opportunity —** to free science from the stranglehold of extractive scientific publishers and platforms, and to ensure science is not muzzled by corporate social media.
+
+## Get involved, learn more
+
+Apart from attending our [events](/events), we:
+
+- Connect with us on [Bluesky](https://bsky.app/profile/atproto.science) and check out the atproto.science Starter Pack, and the custom feeds we're developing there
+- Join the discussion on the [ATproto Community Discourse server](https://discourse.atprotocol.community/t/intros-and-kickoff-thread-for-atproto-x-science/156/3?u=mathewlowry.bsky.social)
+-
+
+
+[Via this form](https://tally.so/r/Zj8K0o) you can:
+
+- register to any of our upcoming events
+- submit your profile for the above custom feed
+- submit content to this website's [People](https://experiments.myhub.ai/at-science-homepage/content/people/people) and [projects](https://experiments.myhub.ai/at-science-homepage/content/products/projects) pages
+<!-- - subscribe to our newsletter. -->
+
+Alternatively, simply contact us (FAQ: How can I contact you?).
+
+
 
 ## Themes & Interests
 

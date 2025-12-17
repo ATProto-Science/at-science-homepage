@@ -1,16 +1,16 @@
 ---
 layout: event
-title: ATmosphereConf - Mar 2026
+title: ATProtoScience at AtmosphereConf2026
 description: ATmosphereConf is the global AT Protocol community conference. Join us in Vancouver, BC, Canada, March 2026 at the UBC campus. Come early for two days of extended events, deep dives, and local activities, then gather for two full conference days with topics for everyone.
 startdate: 2026-03-26
 enddate: 2026-03-29
 city: Vancouver
 country: Canada
 startButton:
-  href: "#"
-  text: Get Ticket
+  href: "https://ti.to/atmosphereconf/atmosphereconf2026"
+  text: Purchase Ticket
 eleventyNavigation:
-  key: ATmosphereConf - Mar 2026
+  key: ATProtoScience at AtmosphereConf2026
   parent: Events
   order: 1
 image:
@@ -37,6 +37,15 @@ related:
           href: mailto:hello@atproto.science
 ---
 
+Join us for a full-day exploration of science and research applications on the AT Protocol. Taking place as a side event to <a href="https://ti.to/atmosphereconf/atmosphereconf2026" target="_blank">AtmosphereConf 2026</a> in Vancouver (March 26-29, 2026), this gathering will bring together researchers, developers, and builders who are using ATProto for science, education, and open knowledge work.
+
+The event will feature keynote presentations, lightning talks, panel discussions, and demos showcasing projects across the AT Science ecosystem. From academic researchers using Bluesky in innovative ways to new infrastructure for collaborative research and credentialing, we'll explore how ATProto can support transformative new science applications.
+
+> [!WARNING]
+> A ticket for **AtmosphereConf2026** is required if you plan to attend ATprotocol.science events **in-person**.
+>
+> **<a href="https://ti.to/atmosphereconf/atmosphereconf2026" target="_blank">Purchase AtmosphereConf2026 ticket</a>**
+
 ## Key Info
 **March 26-29, 2026**
 AMS Student Nest
@@ -44,32 +53,32 @@ AMS Student Nest
 Vancouver, BC V6T 1Z1,
 Canada
 
-View on [Google Maps](https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6) | [Apple Maps](https://maps.apple.com/place?address=3500%20%E2%80%93%206133%20University%20Blvd%0AVancouver%20BC%20V6T%201Z1%0ACanada&coordinate=49.266600,-123.249961&name=AMS%20Student%20Nest&place-id=IF05EC233BAAAD1D0&map=explore)
+View on <a href="https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6" target="_blank">Google Maps</a> | <a href="https://maps.apple.com/place?address=3500%20%E2%80%93%206133%20University%20Blvd%0AVancouver%20BC%20V6T%201Z1%0ACanada&coordinate=49.266600,-123.249961&name=AMS%20Student%20Nest&place-id=IF05EC233BAAAD1D0&map=explore" target="_blank">Apple Maps</a>
 
 ---
-
-Join us for a full-day exploration of science and research applications on the AT Protocol. Taking place as a side event to [AtmosphereConf 2026](https://ti.to/atmosphereconf/atmosphereconf2026) in Vancouver (March 26-29, 2026), this gathering will bring together researchers, developers, and builders who are using ATProto for science, education, and open knowledge work.
-
-The event will feature keynote presentations, lightning talks, panel discussions, and demos showcasing projects across the AT Science ecosystem. From academic researchers using Bluesky in innovative ways to new infrastructure for collaborative research and credentialing, we'll explore how ATProto can support transformative new science applications.
 
 ## Speakers
 
 `Coming Soon`
 
-## Want to Participate?
+## Attend ATProtoScience at AtmosphereConf2026
 
-Officia amet voluptate anim laboris ullamco ea amet reprehenderit ullamco do ut eiusmod ad reprehenderit commodo consectetur officia labore veniam
+To attend in person at the ATProto Science gathering, you'll need to purchase a ticket to the main AtmosphereConf 2026 event. Your conference pass grants access to all official side events, including our science-focused sessions throughout the week.
 
-[Submit the Application Form ->](#)
+**<a href="https://ti.to/atmosphereconf/atmosphereconf2026" target="_blank">Purchase AtmosphereConf2026 ticket</a>**
 
-## Want to Attend?
+### Attending online-only?
 
-> [!WARNING]
-> A ticket for the main AtmosphereConf event is required to attend ATScience in-person.
+> [!TIP]
+> Tickets for online-only attendance are free of charge, but registration is required for planning purposes.
+>
+> **<a href="#" target="_blank">Register for Online-only Tickets</a>**
 
-Tickets for remote attendance will be free of charge, but registration is still required for planning purposes.
+## Participate in ATProtoScience at AtmosphereConf2026
 
-[Purchase AtmosphereConf ticket ->](#)
+Want to present your work, lead a discussion, or demo your project? We're looking for contributors across all areas of science on ATProto—from academic research tools to citizen science platforms. Submit your proposal to join our speaker lineup.
+
+**<a href="https://tally.so/r/Zj8K0o" target="_blank">Submit your Proposal</a>**
 
 ## Schedule
 
@@ -109,7 +118,7 @@ We'll explore a wide range of science applications on ATProto, including:
 </summary>
 
 <div class="govuk-details__text">
-Absolutely! We're planning lightning talks, demos, and panel discussions. If you're working on science-related applications using ATProto, we'd love to hear from you. Stay tuned for our call for proposals, or reach out directly at [hello@atproto.science](mailto:hello@atproto.science).
+Absolutely! We're planning lightning talks, demos, and panel discussions. If you're working on science-related applications using ATProto, we'd love to hear from you. Stay tuned for our call for proposals, or reach out directly at <a href="mailto:hello@atproto.science" target="_blank">hello@atproto.science</a>.
 </div>
 </details>
 
@@ -139,7 +148,7 @@ We plan to record sessions and make them available to the community after the ev
 </summary>
 
 <div class="govuk-details__text">
-Follow [@atproto.science](http://bsky.app/profile/atproto.science) on Bluesky, subscribe to our [ATProto Science feed](https://bsky.app/profile/atproto.science/feed/ATProto-Science), or join the discussion on our [Discourse forum](https://discourse.atprotocol.community/c/atproto-science/22/none).
+Follow <a href="http://bsky.app/profile/atproto.science" target="_blank">@atproto.science</a> on Bluesky, subscribe to our <a href="https://bsky.app/profile/atproto.science/feed/ATProto-Science" target="_blank">ATProto Science feed</a>, or join the discussion on our <a href="https://discourse.atprotocol.community/c/atproto-science/22/none" target="_blank">Discourse forum</a>.
 </div>
 </details>
 
