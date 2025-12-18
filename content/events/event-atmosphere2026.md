@@ -1,7 +1,7 @@
 ---
 layout: event
 title: ATScience 2026
-description: Join ATScience 2026, a full-day scientific exploration on AT Protocol in Vancouver, March 27, 2026. A side event to AtmosphereConf2026 bringing together researchers, developers, and builders using ATProto for science, education, and open knowledge. Features keynotes, lightning talks, panel discussions, and demos showcasing innovative projects in the AT Science ecosystem.
+description: A full-day exploration of AT Protocol for science, education, and open knowledge. A side event to AtmosphereConf2026 Vancouver, March 27, 2026,  
 startdate: 2026-03-27
 # enddate: 2026-03-29
 city: Vancouver
@@ -41,7 +41,7 @@ related:
 
 Taking place as a side event to <a href="https://ti.to/atmosphereconf/atmosphereconf2026" target="_blank">AtmosphereConf2026</a> in Vancouver (March 27, 2026), this gathering will bring together researchers, developers, and builders who are using ATProto for science, education, and open knowledge work.
 
-The event will feature keynote presentations, lightning talks, panel discussions, and demos showcasing projects across the AT Science ecosystem. From academic researchers using Bluesky in innovative ways to new infrastructure for collaborative research and credentialing, we'll explore how ATProto can support transformative new science applications.
+The event will feature presentations, panel discussions, project demos and an unconference. From academic researchers using Bluesky in innovative ways to new infrastructure for collaborative research and credentialing, we'll explore how ATProto can support transformative new science applications.
 
 ## Event Info
 **March 27, 2026**
@@ -56,7 +56,7 @@ View on <a href="https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6" target="_blank">Goog
 
 ## Attend ATScience 2026
 
-To attend in person at ATScience 2026, you'll need a ticket to the main AtmosphereConf2026 event. Your conference pass grants access to all official side events, including our science-focused sessions throughout the week.
+To attend in person at ATScience 2026, you'll need a ticket to the main AtmosphereConf2026 event. Your conference pass grants access to all official side events, including ATScience.
 
 > [!WARNING]
 > A ticket for **AtmosphereConf2026** is required if you plan to attend ATScience 2026 **in-person**.
@@ -74,7 +74,7 @@ To attend in person at ATScience 2026, you'll need a ticket to the main Atmosphe
 
 ## Present at ATScience 2026
 
-Want to present your work, lead a discussion, or demo your project? We're looking for contributors across all areas of science on ATProto—from academic research tools to citizen science platforms.
+Want to present your work, lead a discussion, or demo your project? We're looking for contributors across all areas of science on ATProto, from academic research to new knowledge tools or grassroots citizen science.
 
 **<a href="https://tally.so/r/5B4jvd" target="_blank">Submit your Proposal</a>**
 
@@ -90,21 +90,21 @@ Want to present your work, lead a discussion, or demo your project? We're lookin
 
 <details class="govuk-details">
 <summary class="govuk-details__summary">
-<span class="govuk-details__summary-text">Do I need to attend ATmosphereConf to attend in the ATScience 2026 event?</span>
+<span class="govuk-details__summary-text">Do I need to a ticket for ATmosphereConf to participate in the ATScience event?</span>
 </summary>
 
 <div class="govuk-details__text">
-Yes, for in-person attendance, a ticket to the main ATmosphereConf event is required.
+Yes, for in-person attendance, a ticket to the main ATmosphereConf event is required. However, we’re planning to offer free remote attendance options for ATScience. Stay tuned for more details!
 </div>
 </details>
 
 <details class="govuk-details">
 <summary class="govuk-details__summary">
-<span class="govuk-details__summary-text">Do I need to attend AtmosphereConf2026 to present in the ATScience 2026 event?</span>
+<span class="govuk-details__summary-text">Can I present remotely at ATScience even if I’m not attending the in-person event?</span>
 </summary>
 
 <div class="govuk-details__text">
-Yes, a ticket to the main AtmosphereConf2026 event is required to present at ATScience 2026, whether attending in-person or remotely.
+Unfortunately not. We're prioritizing in-person presenters, to best take advantage of in-person time at the event.
 </div>
 </details>
 
@@ -114,13 +114,14 @@ Yes, a ticket to the main AtmosphereConf2026 event is required to present at ATS
 </summary>
 
 <div class="govuk-details__text">
-We'll explore a wide range of science applications on ATProto, including:
+We’ll explore a wide range of science applications on ATProto, including:
+
 - Academic research and scholarly communication on Bluesky
 - Infrastructure for collaborative research and peer review
 - Credentialing and reputation systems for researchers
 - Open knowledge sharing and citizen science
-- Tools for thought integrations (Obsidian, Notion, Roam)
-- AI applications for scientific work
+- ATProto integrations with knowledge tools and reference managers (Obsidian, Notion, Zotero, etc)
+- Integrated AI and social media applications for science 
 </div>
 </details>
 
@@ -130,7 +131,7 @@ We'll explore a wide range of science applications on ATProto, including:
 </summary>
 
 <div class="govuk-details__text">
-Absolutely! We're planning lightning talks, demos, and panel discussions. If you're working on science-related applications using ATProto, we'd love to hear from you.
+Absolutely! We're planning presentations, panel discussions, project demos and an unconference. If you're working on science-related topics using ATProto (see question above for example relevant topics), please <a href="https://tally.so/r/5B4jvd" target="_blank">submit a proposal</a>!
 </div>
 </details>
 
@@ -140,7 +141,7 @@ Absolutely! We're planning lightning talks, demos, and panel discussions. If you
 </summary>
 
 <div class="govuk-details__text">
-Yes! We interpret "science" broadly to include citizen scientists, independent researchers, tool builders, and anyone engaged in systematic inquiry. Whether you're developing infrastructure, building apps, or just curious about the intersection of research and decentralized protocols, you're welcome.
+Of course! We interpret "science" broadly to include citizen scientists, independent researchers, tool builders, and anyone engaged in systematic inquiry. Whether you're developing infrastructure, building apps, or just curious about the intersection of research and decentralized protocols, you're welcome.
 </div>
 </details>
 
@@ -160,7 +161,7 @@ We plan to record sessions and make them available to the community after the ev
 </summary>
 
 <div class="govuk-details__text">
-Follow <a href="http://bsky.app/profile/atproto.science" target="_blank">@atproto.science</a> on Bluesky, subscribe to our <a href="https://bsky.app/profile/atproto.science/feed/ATProto-Science" target="_blank">ATProto Science feed</a>, or join the discussion on our <a href="https://discourse.atprotocol.community/c/atproto-science/22/none" target="_blank">Discourse forum</a>.
+When you register to the event, we will add you to the event mailing list for important updates. You can also follow <a href="http://bsky.app/profile/atproto.science" target="_blank">@atproto.science</a> on Bluesky, subscribe to our <a href="https://bsky.app/profile/atproto.science/feed/ATProto-Science" target="_blank">ATProto Science feed</a>, or join the discussion on our <a href="https://discourse.atprotocol.community/c/atproto-science/22/none" target="_blank">Discourse forum</a>.
 </div>
 </details>
 
