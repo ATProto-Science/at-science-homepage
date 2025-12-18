@@ -2,7 +2,7 @@
 layout: event
 title: ATScience 2026
 description: A full-day exploration of AT Protocol for science, education, and open knowledge. A side event to AtmosphereConf2026 @ Vancouver, March 27, 2026,  
-startdate: 2026-03-28 # strangely the displayed date is a day behind (so now it's March 27)
+startdate: 2026-03-27 # strangely the displayed date on local is a day behind the deployed version!
 # enddate: 2026-03-29
 city: Vancouver
 country: Canada
