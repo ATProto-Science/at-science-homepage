@@ -76,7 +76,7 @@ To attend in person at ATScience 2026, you'll need a ticket to the main Atmosphe
 
 Want to present your work, lead a discussion, or demo your project? We're looking for contributors across all areas of science on ATProto—from academic research tools to citizen science platforms.
 
-**<a href="https://tally.so/r/Zj8K0o" target="_blank">Submit your Proposal</a>**
+**<a href="https://tally.so/r/5B4jvd" target="_blank">Submit your Proposal</a>**
 
 ## Speakers
 
