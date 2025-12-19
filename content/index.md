@@ -2,12 +2,12 @@
 homepage: true
 layout: product
 
-title: Accelerate discovery with free, open, democratic infrastructure owned by scientists.
-description: We develop tools, build communities, and organize events for publishing, curating, sharing, and discussing academic research on decentralized protocols.
+title: Empower science with open, democratic infrastructure owned by researchers.
+description: We're building communities and tech for publishing, curating, sharing, and discussing academic research online using ATProto and other decentralized protocols.
 
 startButton:
   href: https://tally.so/r/44BJ2k
-  text: Join Us!
+  text: Join the community!
 # image:
 #   src: /assets/project-illustration.svg
 #   alt: Eleventy’s possum mascot hanging on a red balloon and floating above a laptop.
@@ -31,6 +31,18 @@ related:
 #     content: |
 #       Lorem Ipsum News.
 ---
+
+<!-- <div class="govuk-notification-banner" role="region" aria-labelledby="govuk-notification-banner-title" data-module="govuk-notification-banner">
+  <div class="govuk-notification-banner__header">
+    <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
+      Join us at ATScience 2026
+    </h2>
+  </div>
+  <div class="govuk-notification-banner__content">
+    <p class="govuk-body">Join us in Vancouver on March 27, 2026, for a full-day exploration of AT Protocol for science, education, and open knowledge. A side event to AtmosphereConf2026 (March 26-29, 2026).</p>
+    <p class="govuk-body"><a class="govuk-link" href="/events/atmosphere2026">Learn more, register and apply to present your project &#8594;</a></p>
+  </div>
+</div> -->
 
 <!-- <div class="govuk-grid-row">
   <section class="govuk-grid-column-one-third-from-desktop">
@@ -77,9 +89,9 @@ Join a network of researchers, developers, and institutions collaborating throug
 
 **[Meet the ATScience Community &#8594;](/people)**
 
-### ATScience is an [Infrastructure](/projects)
+### ATScience is an [Ecosystem](/projects)
 
-Free, open, democratic protocols owned by scientists. Build and innovate without platform lock-in, where everyone can create better tools and experiences for research.
+Open, democratic infrastructure owned by scientists. Build and innovate without platform lock-in, where everyone can create better tools and experiences for research.
 
 **[Explore ATScience Projects &#8594;](/projects)**
 
@@ -94,7 +106,7 @@ Transforming scholarly communication through collective action. Scientists build
 This is an evolving space, and we're actively learning from the community about what tools and services would be most valuable for you.
 
 -  [Connect on Bluesky &#8594;](https://bsky.app/profile/atproto.science)
--  [Follow the ATScience Feeds &#8594;](https://bsky.app/profile/atproto.science/feed/ATProto-Science)
+-  [Follow the ATScience Feed &#8594;](https://bsky.app/profile/atproto.science/feed/ATProto-Science)
 
 
 > [!TIP]
