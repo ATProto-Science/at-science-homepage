@@ -25,7 +25,8 @@ eleventyComputed:
   aside:
     title: Join the Community
     content: |
-      Want to connect with other researchers and builders working on ATProto science projects? Fill out our free [Membership form](https://tally.so/r/44BJ2k) to get listed.
+      Want to connect with other researchers and builders working on ATProto science projects? Fill out our free <a href="https://tally.so/r/2EBLPD" target="_blank">Membership form</a> to get listed.
 ---
 
 Meet the people building and organizing the ATProto Science community. From researchers and developers to community organizers and science communicators, these are the individuals driving innovation in decentralized science on ATProto.
+Submit your Proposal

@@ -6,7 +6,7 @@ title: Empowering science communities with open, democratic, researcher-owned in
 description: We're building communities and tech for publishing, curating, sharing, and discussing research online using ATProto and other decentralized protocols.
 
 startButton:
-  href: https://tally.so/r/44BJ2k
+  href: https://tally.so/r/2EBLPD
   text: Join the community!
 # image:
 #   src: /assets/project-illustration.svg
