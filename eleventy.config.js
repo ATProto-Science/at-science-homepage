@@ -5,6 +5,7 @@ export default function(eleventyConfig) {
     stylesheets: ['/assets/styles.css'],
     showBreadcrumbs: false,
     titleSuffix: 'ATproto Science',
+    opengraphImageUrl: '/assets/og/og-default.png',
     icons: {
       shortcut: '/assets/icon/favicon.ico',
       mask: '/assets/icon/mask.svg',
@@ -57,6 +58,7 @@ export default function(eleventyConfig) {
   // Passthrough copy for images and icons
   eleventyConfig.addPassthroughCopy('content/assets/images')
   eleventyConfig.addPassthroughCopy('content/assets/icon')
+  eleventyConfig.addPassthroughCopy('content/assets/og')
 
   // Custom computed data for event metadata
   eleventyConfig.addGlobalData('eleventyComputed', {
