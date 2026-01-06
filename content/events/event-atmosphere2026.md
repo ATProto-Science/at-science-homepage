@@ -71,6 +71,8 @@ View on <a href="https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6" target="_blank">Goog
 
 Want to present your work, lead a discussion, or demo your project? We're looking for contributors across all areas of science on ATProto, from academic research to new knowledge tools or grassroots citizen science.
 
+*The call for proposals closes at the end of January. We will review and notify speakers on a rolling basis.*
+
 **<a href="https://forms.atproto.science/atscience26-proposals" target="_blank">Submit your Proposal</a>**
 
 ## Speakers
@@ -159,4 +161,13 @@ We plan to record sessions and make them available to the community after the ev
 When you register to the event, we will add you to the event mailing list for important updates. You can also follow <a href="http://bsky.app/profile/atproto.science" target="_blank">@atproto.science</a> on Bluesky, subscribe to our <a href="https://bsky.app/profile/atproto.science/feed/ATProto-Science" target="_blank">ATProto Science feed</a>, or join the discussion on our <a href="https://discourse.atprotocol.community/c/atproto-science/22/none" target="_blank">Discourse forum</a>.
 </div>
 </details>
+
+## Supporters
+
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="https://cosmik.network/" target="_blank">
+    <img src="/assets/images/supporters/cosmik_network_logo.png" alt="Cosmik Network" style="max-width: 200px; width: 100%;">
+  </a>
+  <!-- <p class="govuk-body" style="margin-top: 0.5rem; text-align: center;"><strong>Cosmik Network</strong></p> -->
+</div>
 
