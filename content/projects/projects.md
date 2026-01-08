@@ -18,6 +18,10 @@ related:
           href: https://discourse.atprotocol.community/c/atproto-science/22/none
         - text: Send an Email
           href: mailto:hello@atproto.science
+    - title: About this list
+      items:
+        - text: View on Semble
+          href: https://semble.so/profile/atproto.science/collections/3m5f7jpl6pk2j
 eleventyComputed:
   aside:
     title: Want to be Listed?
