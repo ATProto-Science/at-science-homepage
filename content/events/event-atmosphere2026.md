@@ -43,7 +43,7 @@ Taking place as a side event to <a href="https://ti.to/atmosphereconf/atmosphere
 
 The event will feature presentations, panel discussions, project demos and an unconference. From academic researchers using Bluesky in innovative ways to new infrastructure for collaborative research and credentialing, we'll explore how ATProto can support transformative new science applications.
 
-### Event Info
+<h3 id="event-info">Event Info</h3>
 **March 27, 2026**
 AMS Student Nest
 6133 University Blvd,
@@ -52,7 +52,7 @@ Canada
 
 View on <a href="https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6" target="_blank">Google Maps</a> | <a href="https://maps.apple.com/place?address=3500%20%E2%80%93%206133%20University%20Blvd%0AVancouver%20BC%20V6T%201Z1%0ACanada&coordinate=49.266600,-123.249961&name=AMS%20Student%20Nest&place-id=IF05EC233BAAAD1D0&map=explore" target="_blank">Apple Maps</a>
 
-## Attend ATScience 2026
+<h2 id="attend">Attend ATScience 2026</h2>
 
 > [!WARNING]
 > **Buy an AtmosphereConf 2026 ticket to attend ATScience 2026 in-person.**
@@ -67,7 +67,7 @@ View on <a href="https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6" target="_blank">Goog
 > Tickets for online-only attendance are free of charge.
 > **<a href="#" target="_blank">Register for Online-only Tickets</a>** -->
 
-## Present at ATScience 2026
+<h2 id="present">Present at ATScience 2026</h2>
 
 Want to present your work, lead a discussion, or demo your project? We're looking for contributors across all areas of science on ATProto, from academic research to new knowledge tools or grassroots citizen science.
 
@@ -75,7 +75,7 @@ Want to present your work, lead a discussion, or demo your project? We're lookin
 
 **<a href="https://forms.atproto.science/atscience26-proposals" target="_blank">Submit your Proposal</a>**
 
-## Speakers
+<h2 id="speakers">Speakers</h2>
 
 <div class="govuk-inset-text">
   More speakers will be announced soon. Follow <a href="http://bsky.app/profile/atproto.science" target="_blank">@atproto.science</a> on Bluesky for updates.
@@ -115,11 +115,11 @@ Copy the div block below for each speaker and fill in:
 
 </div>
 
-## Agenda
+<h2 id="agenda">Agenda</h2>
 
 `Coming Soon`
 
-## FAQ
+<h2 id="faq">FAQ</h2>
 
 <details class="govuk-details">
 <summary class="govuk-details__summary">
@@ -198,7 +198,7 @@ When you register to the event, we will add you to the event mailing list for im
 </div>
 </details>
 
-## Supporters
+<h2 id="supporters">Supporters</h2>
 
 <div style="text-align: center; margin: 2rem 0;">
   <a href="https://cosmik.network/" target="_blank">

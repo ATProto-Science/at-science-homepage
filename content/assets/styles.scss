@@ -14,3 +14,26 @@ $_font-family: system-ui, sans-serif;
 
 // Use GOV.UK Eleventy Plugin components
 @use 'pkg:@x-govuk/govuk-eleventy-plugin';
+
+// Anchor link styles for headings
+h2[id], h3[id], h4[id], h5[id], h6[id] {
+  scroll-margin-top: 2rem; // Adds space when jumping to anchor
+  position: relative;
+
+  // Show # symbol on hover
+  &:hover::before {
+    content: "#";
+    position: absolute;
+    left: -1.5rem;
+    color: #0000ff;
+    font-weight: normal;
+    text-decoration: none;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  // Make the entire heading clickable for copying the anchor link
+  &:hover {
+    cursor: pointer;
+  }
+}

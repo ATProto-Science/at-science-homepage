@@ -45,3 +45,39 @@
     </div>
   </main>
 {% endblock %}
+
+{% block bodyEnd %}
+  <script>
+    // Add clickable anchor links to headings
+    document.addEventListener('DOMContentLoaded', function() {
+      const headings = document.querySelectorAll('h2[id], h3[id], h4[id], h5[id], h6[id]');
+
+      headings.forEach(function(heading) {
+        heading.style.cursor = 'pointer';
+
+        // Add click handler to copy link and update URL
+        heading.addEventListener('click', function(e) {
+          const id = this.getAttribute('id');
+          const url = window.location.origin + window.location.pathname + '#' + id;
+
+          // Update URL without scrolling
+          history.pushState(null, null, '#' + id);
+
+          // Copy to clipboard
+          navigator.clipboard.writeText(url).then(function() {
+            // Show a temporary tooltip
+            const tooltip = document.createElement('span');
+            tooltip.textContent = 'Link copied!';
+            tooltip.style.cssText = 'position: absolute; background: #0b0c0c; color: white; padding: 4px 8px; border-radius: 3px; font-size: 14px; margin-left: 10px; z-index: 1000;';
+            heading.style.position = 'relative';
+            heading.appendChild(tooltip);
+
+            setTimeout(function() {
+              tooltip.remove();
+            }, 2000);
+          });
+        });
+      });
+    });
+  </script>
+{% endblock %}
