@@ -77,7 +77,43 @@ Want to present your work, lead a discussion, or demo your project? We're lookin
 
 ## Speakers
 
-`Coming Soon`
+<div class="govuk-inset-text">
+  More speakers will be announced soon. Follow <a href="http://bsky.app/profile/atproto.science" target="_blank">@atproto.science</a> on Bluesky for updates.
+</div>
+
+<!--
+Template for adding speakers:
+Copy the div block below for each speaker and fill in:
+- Image path in both <img> src and <a> href (if linking to image)
+- Speaker name
+- Role/title
+- Affiliation/organization
+- Optional: website link (wrap name in <a> tag)
+-->
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 2rem; margin: 2rem 0;">
+
+  <!-- Speaker 1 -->
+  <div style="text-align: center;">
+    <img src="/assets/images/atscience26-speakers/sophie_greenwood.jpg" alt="Portrait of Sophie Greenwood" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/sjgreenwood.bsky.social" class="govuk-link" target="_blank">Sophie Greenwood</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">PhD Student</p>
+    <p class="govuk-body-s" style="color: #505a5f;">Cornell CIS</p>
+  </div>
+
+  <!-- Speaker 2 -->
+  <!-- <div style="text-align: center;">
+    <img src="/assets/images/speakers/speaker-name.jpg" alt="Portrait of Speaker Name" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">Speaker Name</h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Title/Role</p>
+    <p class="govuk-body-s" style="color: #505a5f;">Affiliation</p>
+  </div> -->
+
+  <!-- Add more speakers as needed -->
+
+</div>
 
 ## Agenda
 
