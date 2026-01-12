@@ -140,3 +140,6 @@ vite.config.ts.timestamp-*
 
 # 11ty
 _site/
+content/claude.code-workspace
+content/assets/images/.DS_Store
+content/assets/.DS_Store
