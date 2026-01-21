@@ -113,6 +113,26 @@ Copy the div block below for each speaker and fill in:
     <p class="govuk-body-s" style="color: #505a5f;">Sealight Labs</p>
   </div>
 
+  <!-- Speaker 3 -->
+  <div style="text-align: center;">
+    <img src="/assets/images/atscience26-speakers/emily_hunt.jpg" alt="Photo of Emily Hunt" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/emily.space" class="govuk-link" target="_blank">Emily Hunt</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Postdoc</p>
+    <p class="govuk-body-s" style="color: #505a5f;">Department of Astrophysics, University of Vienna</p>
+  </div>
+
+  <!-- Speaker 4 -->
+  <div style="text-align: center;">
+    <img src="/assets/images/atscience26-speakers/aaron_white.jpg" alt="Photo of Aaron White" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/aaronstevenwhite.io" class="govuk-link" target="_blank">Aaron White</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Associate Professor</p>
+    <p class="govuk-body-s" style="color: #505a5f;">University of Rochester</p>
+  </div>
+
   <!-- Add more speakers as needed -->
 
 </div>
