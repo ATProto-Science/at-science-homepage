@@ -84,7 +84,7 @@ related:
 
 ## About Us
 
-**Scientists have been early adopters of Bluesky**, recognising its potential for useful, constructive conversations about their work in an open social media environment where users and communities have better control of their data and experience. But Bluesky is just the start, with a wave of new apps emerging, all underpinned by the [ATprotocol](https://atproto.com/guides/overview) - the same technology used by Bluesky.
+**Scientists have been early adopters of Bluesky**, recognising its potential for useful, constructive conversations about their work in an open social media environment where users and communities have better control of their data and experience. But Bluesky is just the start, with a wave of new apps emerging, all underpinned by [ATProtocol](https://atproto.com/guides/overview) - the same technology used by Bluesky.
 
 ### ATScience is a [Community](/people)
 
