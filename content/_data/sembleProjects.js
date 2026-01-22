@@ -18,7 +18,7 @@ function parseNoteFields(noteText) {
 export default async function() {
   try {
     const response = await fetch(
-      'https://api.semble.so/api/collections/at/atproto.science/3m5f7jpl6pk2j?page=1&limit=100&sortBy=createdAt&sortOrder=desc'
+      'https://api.semble.so/api/collections/at/atproto.science/3m5f7jpl6pk2j?page=1&limit=100&sortBy=createdAt&sortOrder=asc'
     );
 
     if (!response.ok) {
