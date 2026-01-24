@@ -82,20 +82,49 @@ Want to present your work, lead a discussion, or demo your project? We're lookin
 </div>
 
 <!--
-Template for adding speakers:
-Copy the div block below for each speaker and fill in:
-- Image path in both <img> src and <a> href (if linking to image)
-- Speaker name
-- Role/title
-- Affiliation/organization
-- Optional: website link (wrap name in <a> tag)
+Template for adding speakers with talk description overlays:
+
+STEP 1: Add speaker card in the grid below
+Copy this template and fill in the details:
+
+  <div style="text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/FILENAME.jpg"
+           alt="Photo of [Name]"
+           style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="speaker-slug"
+              aria-label="View talk information for [Name]"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/[handle]" class="govuk-link" target="_blank">[Name]</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">[Title]</p>
+    <p class="govuk-body-s" style="color: #505a5f;">[Affiliation]</p>
+  </div>
+
+STEP 2: Add dialog element in the "Speaker Dialogs" section below the grid
+The speaker-slug in data-speaker must match the dialog id (without "dialog-" prefix)
+
+See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
 -->
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 2rem; margin: 2rem 0;">
 
   <!-- Speaker 1 -->
   <div style="text-align: center;">
-    <img src="/assets/images/atscience26-speakers/sophie_greenwood.jpg" alt="Photo of Sophie Greenwood" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/sophie_greenwood.jpg" alt="Photo of Sophie Greenwood" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="sophie-greenwood"
+              aria-label="View talk information for Sophie Greenwood"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
     <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
       <a href="https://bsky.app/profile/sjgreenwood.bsky.social" class="govuk-link" target="_blank">Sophie Greenwood</a>
     </h3>
@@ -105,7 +134,15 @@ Copy the div block below for each speaker and fill in:
 
   <!-- Speaker 2 -->
   <div style="text-align: center;">
-    <img src="/assets/images/atscience26-speakers/anish_lakhwara.jpeg" alt="Photo of Anish Lakhwara" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/anish_lakhwara.jpeg" alt="Photo of Anish Lakhwara" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="anish-lakhwara"
+              aria-label="View talk information for Anish Lakhwara"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
     <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
       <a href="https://bsky.app/profile/hyl.st" class="govuk-link" target="_blank">Anish Lakhwara</a>
     </h3>
@@ -115,7 +152,15 @@ Copy the div block below for each speaker and fill in:
 
   <!-- Speaker 3 -->
   <div style="text-align: center;">
-    <img src="/assets/images/atscience26-speakers/emily_hunt.jpg" alt="Photo of Emily Hunt" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/emily_hunt.jpg" alt="Photo of Emily Hunt" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="emily-hunt"
+              aria-label="View talk information for Emily Hunt"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
     <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
       <a href="https://bsky.app/profile/emily.space" class="govuk-link" target="_blank">Emily Hunt</a>
     </h3>
@@ -125,7 +170,15 @@ Copy the div block below for each speaker and fill in:
 
   <!-- Speaker 4 -->
   <div style="text-align: center;">
-    <img src="/assets/images/atscience26-speakers/aaron_white.jpg" alt="Photo of Aaron White" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/aaron_white.jpg" alt="Photo of Aaron White" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="aaron-white"
+              aria-label="View talk information for Aaron White"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
     <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
       <a href="https://bsky.app/profile/aaronstevenwhite.io" class="govuk-link" target="_blank">Aaron White</a>
     </h3>
@@ -136,6 +189,104 @@ Copy the div block below for each speaker and fill in:
   <!-- Add more speakers as needed -->
 
 </div>
+
+<!-- Speaker Dialogs -->
+<dialog id="dialog-sophie-greenwood" class="speaker-dialog" aria-labelledby="dialog-sophie-greenwood-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-sophie-greenwood-title" class="govuk-heading-m">Sophie Greenwood</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        PhD Student, Cornell CIS
+      </p>
+      <h3 class="govuk-heading-s">Studying social media through the ATmosphere</h3>
+      <p class="govuk-body">
+        The AT Proto ecosystem empowers novel social media research. Our research showcases three promising directions in this space:
+1. Experiments on self-hosted feeds (Paper Skygest findings and customization interface),
+2. Experiments on existing feeds via collaboration with feed designers (collaboration with Graze and Aendra),
+3. Observational analyses of social media (SAEs on AT Proto posts)
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/sjgreenwood.bsky.social" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-anish-lakhwara" class="speaker-dialog" aria-labelledby="dialog-anish-lakhwara-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-anish-lakhwara-title" class="govuk-heading-m">Anish Lakhwara</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Founder, Sealight Labs
+      </p>
+      <h3 class="govuk-heading-s">Anish Lakhwara</h3>
+      <p class="govuk-body">
+      Making wisdom together. Seams.so demo, and live workshop.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/hyl.st" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-emily-hunt" class="speaker-dialog" aria-labelledby="dialog-emily-hunt-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-emily-hunt-title" class="govuk-heading-m">Emily Hunt</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Postdoc, Department of Astrophysics, University of Vienna
+      </p>
+      <h3 class="govuk-heading-s">The Astrosky Ecosystem: An indepenedent online home for astronomy</h3>
+      <p class="govuk-body">
+        What's the point of doing science if you can't tell anyone about it? I'll present The Astrosky Ecosystem, a community project by astronomers to democratize social media access for the space science & space fan communities. I'll talk about our 30 months of running custom feeds, as well as our future plans to start PDS hosting and even venture towards an astrophotography appview.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/emily.space" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-aaron-white" class="speaker-dialog" aria-labelledby="dialog-aaron-white-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-aaron-white-title" class="govuk-heading-m">Aaron White</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Associate Professor, University of Rochester
+      </p>
+      <h3 class="govuk-heading-s">Chive: Decentralized Preprint Service</h3>
+      <p class="govuk-body">
+        Chive is a decentralized preprint service featuring threaded review, formal endorsements, and a community-curated field taxonomy—all as portable ATProto records users own. Chive provides a rich plugin interface, making it imminently extensible as the ATmosphere grows. It currently provides builtin plugins for integration with existing ATProto services, such as Semble, Leaflet, and WhiteWind.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/aaronstevenwhite.io" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<script src="/assets/speaker-dialog.js"></script>
 
 ## Agenda
 

@@ -14,3 +14,88 @@ $_font-family: system-ui, sans-serif;
 
 // Use GOV.UK Eleventy Plugin components
 @use 'pkg:@x-govuk/govuk-eleventy-plugin';
+
+// Speaker dialog styles
+.speaker-info-btn {
+  transition: background-color 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    background: rgba(0, 0, 128, 1) !important;
+    transform: scale(1.1);
+  }
+
+  &:focus {
+    outline: 3px solid #ffdd00;
+    outline-offset: 0;
+  }
+}
+
+.speaker-dialog {
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  max-width: 600px;
+  width: calc(100% - 2rem);
+
+  &::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.speaker-dialog-content {
+  padding: 1.5rem;
+}
+
+.speaker-dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #b1b4b6;
+
+  h2 {
+    margin: 0;
+    flex: 1;
+  }
+}
+
+.speaker-dialog-close {
+  background: none;
+  border: 2px solid #0b0c0c;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  color: #0b0c0c;
+  flex-shrink: 0;
+  margin-left: 1rem;
+
+  &:hover {
+    background: #f3f2f1;
+  }
+
+  &:focus {
+    outline: 3px solid #ffdd00;
+    outline-offset: 0;
+  }
+}
+
+.speaker-dialog-body {
+  overflow-y: auto;
+  max-height: 60vh;
+}
+
+@media (max-width: 640px) {
+  .speaker-dialog {
+    width: calc(100% - 1rem);
+    max-width: none;
+  }
+
+  .speaker-dialog-content {
+    padding: 1rem;
+  }
+}

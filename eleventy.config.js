@@ -59,6 +59,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('content/assets/images')
   eleventyConfig.addPassthroughCopy('content/assets/icon')
   eleventyConfig.addPassthroughCopy('content/assets/og')
+  eleventyConfig.addPassthroughCopy('content/assets/speaker-dialog.js')
 
   // Custom computed data for event metadata
   eleventyConfig.addGlobalData('eleventyComputed', {
