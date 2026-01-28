@@ -186,6 +186,24 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     <p class="govuk-body-s" style="color: #505a5f;">University of Rochester</p>
   </div>
 
+ <!-- Speaker 5 -->
+  <div style="text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/teon_brooks.png" alt="Photo of Teon Brooks" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="teon-brooks"
+              aria-label="View talk information for Teon Brooks"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/teonbrooks.com" class="govuk-link" target="_blank">Teon Brooks</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">President</p>
+    <p class="govuk-body-s" style="color: #505a5f;">Gotham Data Clinic</p>
+  </div>
+
   <!-- Add more speakers as needed -->
 
 </div>
@@ -281,6 +299,29 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
         <a href="https://bsky.app/profile/aaronstevenwhite.io" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-teon-brooks" class="speaker-dialog" aria-labelledby="dialog-teon-brooks-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-teon-brooks-title" class="govuk-heading-m">Teon Brooks</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        President, Gotham Data Clinic
+      </p>
+      <h3 class="govuk-heading-s">Compuational Education Commons on for the ATmosphere</h3>
+      <p class="govuk-body">
+      We will discuss new advances in computing education. We will highlight projects that teach computing and data science at scale using Pyodide. We propose a new infrastructure model that builds on these advances and incorporates the ATmosphere as an identity model and content storage. Using ATmosphere services like Tangled and Blacksky, we can truly democratize computing education.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/teonbrooks.com" class="govuk-link" target="_blank">View profile on Bluesky</a>
       </p>
     </div>
   </div>
