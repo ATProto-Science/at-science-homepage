@@ -58,7 +58,7 @@ View on <a href="https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6" target="_blank">Goog
 > **Buy an AtmosphereConf 2026 ticket to attend ATScience 2026 in-person.**
 > The conference pass grants access to all official main and side events, including ATScience 2026.
 
-<tito-widget event="atmosphereconf/atmosphereconf2026" releases="early-bird,atscience"></tito-widget>
+<tito-widget event="atmosphereconf/atmosphereconf2026" releases="cfllygt-phg"></tito-widget>
 <script src='https://js.tito.io/v2' async></script>
 
 **<a href="https://ti.to/atmosphereconf/atmosphereconf2026" target="_blank">More about AtmosphereConf 2026</a>**
