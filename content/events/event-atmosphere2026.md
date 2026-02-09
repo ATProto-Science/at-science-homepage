@@ -69,11 +69,7 @@ View on <a href="https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6" target="_blank">Goog
 
 ## Present at ATScience 2026
 
-Want to present your work, lead a discussion, or demo your project? We're looking for contributors across all areas of science on ATProto, from academic research to new knowledge tools or grassroots citizen science.
-
 *The call for proposals closes at the end of January. We will review and notify speakers on a rolling basis.*
-
-**<a href="https://forms.atproto.science/atscience26-proposals" target="_blank">Submit your Proposal</a>**
 
 ## Speakers
 
