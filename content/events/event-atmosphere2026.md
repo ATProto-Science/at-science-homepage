@@ -200,6 +200,60 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     <p class="govuk-body-s" style="color: #505a5f;">Gotham Data Clinic</p>
   </div>
 
+  <!-- Speaker 6 -->
+  <div style="text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/travis_simpson.jpg" alt="Photo of Travis Simpson" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="travis-simpson"
+              aria-label="View talk information for Travis Simpson"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/skysquareapp.bsky.social" class="govuk-link" target="_blank">Travis Simpson</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Founder & CEO</p>
+    <p class="govuk-body-s" style="color: #505a5f;">Skysquare</p>
+  </div>
+
+  <!-- Speaker 7 -->
+  <div style="text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/scott_mcgrath.jpg" alt="Photo of Scott McGrath" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="scott-mcgrath"
+              aria-label="View talk information for Scott McGrath"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/smcgrath.phd" class="govuk-link" target="_blank">Dr. Scott McGrath</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Academic Program Management Officer IV</p>
+    <p class="govuk-body-s" style="color: #505a5f;">UC Berkeley</p>
+  </div>
+
+  <!-- Speaker 8 -->
+  <div style="text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/jay_patel.jpg" alt="Photo of Jay Patel" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="jay-patel"
+              aria-label="View talk information for Jay Patel"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/infotainment.bsky.social" class="govuk-link" target="_blank">Jay Patel</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Ph.D. Candidate</p>
+    <p class="govuk-body-s" style="color: #505a5f;">University of Maryland</p>
+  </div>
+
   <!-- Add more speakers as needed -->
 
 </div>
@@ -318,6 +372,75 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
         <a href="https://bsky.app/profile/teonbrooks.com" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-travis-simpson" class="speaker-dialog" aria-labelledby="dialog-travis-simpson-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-travis-simpson-title" class="govuk-heading-m">Travis Simpson</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Founder & CEO, Skysquare
+      </p>
+      <h3 class="govuk-heading-s">Skysquare is context as a service.</h3>
+      <p class="govuk-body">
+        Skysquare uses AT Protocol to reattach public discourse to its source, transforming the web into a socially annotated commons.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/skysquareapp.bsky.social" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-scott-mcgrath" class="speaker-dialog" aria-labelledby="dialog-scott-mcgrath-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-scott-mcgrath-title" class="govuk-heading-m">Dr. Scott McGrath</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Academic Program Management Officer IV, UC Berkeley
+      </p>
+      <h3 class="govuk-heading-s">Reigniting the Party: Lessons from a Stalled Migration to Bluesky</h3>
+      <p class="govuk-body">
+        AMIA's vibrant Twitter backchannel fragmented post-X. This talk details our stalled effort to migrate the community to Bluesky. Despite a guide and conference launch, the "cold start" problem hindered adoption. I'll share lessons learned, discuss migration barriers, and outline revised strategies to rebuild our clinical research network.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/smcgrath.phd" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-jay-patel" class="speaker-dialog" aria-labelledby="dialog-jay-patel-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-jay-patel-title" class="govuk-heading-m">Jay Patel</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Ph.D. Candidate, University of Maryland
+      </p>
+      <h3 class="govuk-heading-s">Crowdsourced Research Synthesis on ATProto: Envisioning an Inclusive Future</h3>
+      <p class="govuk-body">
+        Research synthesis, a desirable culmination of primary research, is notoriously slow, error-prone, and disconnected from the network of potential contributors. Now, ATProto offers a digital foundation upon which to recruit collaborators (Bluesky feeds), assign micro-tasks (discourse graphs), author reports (leaflet.pub), and acknowledge contributions.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/infotainment.bsky.social" class="govuk-link" target="_blank">View profile on Bluesky</a>
       </p>
     </div>
   </div>
