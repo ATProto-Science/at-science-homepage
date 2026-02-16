@@ -212,7 +212,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       </button>
     </div>
     <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
-      <a href="https://bsky.app/profile/skysquareapp.bsky.social" class="govuk-link" target="_blank">Travis Simpson</a>
+      <a href="https://bsky.app/profile/skysquare.app" class="govuk-link" target="_blank">Travis Simpson</a>
     </h3>
     <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Founder & CEO</p>
     <p class="govuk-body-s" style="color: #505a5f;">Skysquare</p>
@@ -394,7 +394,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
         Skysquare uses AT Protocol to reattach public discourse to its source, transforming the web into a socially annotated commons.
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
-        <a href="https://bsky.app/profile/skysquareapp.bsky.social" class="govuk-link" target="_blank">View profile on Bluesky</a>
+        <a href="https://bsky.app/profile/skysquare.app" class="govuk-link" target="_blank">View profile on Bluesky</a>
       </p>
     </div>
   </div>
