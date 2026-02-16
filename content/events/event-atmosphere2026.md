@@ -450,7 +450,24 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
 
 ## Agenda
 
-`Coming Soon`
+The full conference agenda is available on Leaflet, an ATProto-native publishing platform. View the complete schedule, speaker details, and session descriptions:
+
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="https://atproto2026.leaflet.pub/3mevfbw7r522w/l-quote/019c60e7-6d9d-7773-a1b3-6521afff8f21~0_0-1_0"
+     class="govuk-button govuk-button--start"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="margin-bottom: 0;">
+    View Full Agenda on Leaflet
+    <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"/>
+    </svg>
+  </a>
+</div>
+
+<div class="govuk-inset-text">
+  The agenda includes presentations, lightning talks, panel discussions, and an unconference session covering topics from decentralized preprints to social media research on ATProto.
+</div>
 
 ## FAQ
 
