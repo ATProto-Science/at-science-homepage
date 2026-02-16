@@ -450,23 +450,163 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
 
 ## Agenda
 
-The full conference agenda is available on Leaflet, an ATProto-native publishing platform. View the complete schedule, speaker details, and session descriptions:
+### Schedule at a Glance
 
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="https://atproto2026.leaflet.pub/3mevfbw7r522w/l-quote/019c60e7-6d9d-7773-a1b3-6521afff8f21~0_0-1_0"
-     class="govuk-button govuk-button--start"
-     target="_blank"
-     rel="noopener noreferrer"
-     style="margin-bottom: 0;">
-    View Full Agenda on Leaflet
-    <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" aria-hidden="true" focusable="false">
-      <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"/>
-    </svg>
-  </a>
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Time</th>
+      <th scope="col" class="govuk-table__header">Session</th>
+      <th scope="col" class="govuk-table__header">Details</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">8:30 - 9:00 AM</td>
+      <td class="govuk-table__cell"><strong>Registration & Coffee</strong></td>
+      <td class="govuk-table__cell">Welcome and check-in</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">9:00 - 9:15 AM</td>
+      <td class="govuk-table__cell"><strong>Opening Remarks</strong></td>
+      <td class="govuk-table__cell">Conference welcome</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">9:15 - 10:00 AM</td>
+      <td class="govuk-table__cell"><strong>Keynote</strong></td>
+      <td class="govuk-table__cell">Rowan Cockett & Matt Akamatsu</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">10:00 - 10:45 AM</td>
+      <td class="govuk-table__cell"><strong>Building ATScience: Infrastructure</strong></td>
+      <td class="govuk-table__cell">Semble (Ronen Tamari), Lea (Maria Antoniak), Chive (Aaron White)</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">10:45 - 11:00 AM</td>
+      <td class="govuk-table__cell"><strong>Coffee Break</strong></td>
+      <td class="govuk-table__cell">15 minutes</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">11:00 - 11:50 AM</td>
+      <td class="govuk-table__cell"><strong>AI & Data</strong></td>
+      <td class="govuk-table__cell">Martin Karlsson, Maxine Levesque, Sean Jungbluth, Billy Pierce</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">12:00 - 1:00 PM</td>
+      <td class="govuk-table__cell"><strong>Lunch</strong></td>
+      <td class="govuk-table__cell">60 minutes</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">1:00 - 1:56 PM</td>
+      <td class="govuk-table__cell"><strong>Lightning Talks</strong></td>
+      <td class="govuk-table__cell">7 talks covering community archives, ViewSift, Skysquare, community integration, migrations, and computational education</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">1:56 - 2:10 PM</td>
+      <td class="govuk-table__cell"><strong>Afternoon Coffee Break</strong></td>
+      <td class="govuk-table__cell">14 minutes</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">2:10 - 2:50 PM</td>
+      <td class="govuk-table__cell"><strong>Panel Discussion</strong></td>
+      <td class="govuk-table__cell">Future of science social media - Scott McGrath, Maria Antoniak, Ariel Lighty</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">2:50 - 3:26 PM</td>
+      <td class="govuk-table__cell"><strong>Additional Talks</strong></td>
+      <td class="govuk-table__cell">Chive deep dive (Aaron White), Identity & Attribution (Laurel Haak), Research Metadata (Ellie DeSota)</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">3:26 - 4:56 PM</td>
+      <td class="govuk-table__cell"><strong>Unconference</strong></td>
+      <td class="govuk-table__cell">Open discussion and collaborative sessions</td>
+    </tr>
+  </tbody>
+</table>
+
+### Featured Talks
+
+<details class="govuk-details">
+<summary class="govuk-details__summary">
+<span class="govuk-details__summary-text"><strong>Keynote</strong> - Rowan Cockett & Matt Akamatsu (9:15 - 10:00 AM)</span>
+</summary>
+<div class="govuk-details__text">
+Opening keynote presentation setting the stage for ATProto in science and education.
 </div>
+</details>
 
-<div class="govuk-inset-text">
-  The agenda includes presentations, lightning talks, panel discussions, and an unconference session covering topics from decentralized preprints to social media research on ATProto.
+<details class="govuk-details">
+<summary class="govuk-details__summary">
+<span class="govuk-details__summary-text"><strong>Building ATScience: Infrastructure</strong> (10:00 - 10:45 AM)</span>
+</summary>
+<div class="govuk-details__text">
+<strong>Semble: A social knowledge network for research on atproto</strong><br>
+<em>Ronen Tamari</em> (10:00 - 10:15 AM)<br><br>
+
+<strong>Lea: A Social App for Researchers</strong><br>
+<em>Maria Antoniak</em> (10:15 - 10:30 AM)<br><br>
+
+<strong>Chive: Decentralized preprints with ATProto</strong><br>
+<em>Aaron White</em> (10:30 - 10:45 AM)
+</div>
+</details>
+
+<details class="govuk-details">
+<summary class="govuk-details__summary">
+<span class="govuk-details__summary-text"><strong>AI & Data Track</strong> (11:00 - 11:50 AM)</span>
+</summary>
+<div class="govuk-details__text">
+<strong>Automated science coordination with ATProto</strong><br>
+<em>Martin Karlsson</em> (11:00 - 11:15 AM)<br><br>
+
+<strong>atdata: Distributed datasets over atproto</strong><br>
+<em>Maxine Levesque</em> (11:15 - 11:30 AM)<br><br>
+
+<strong>Reproducible, citation-aware automated paper reviews</strong><br>
+<em>Sean Jungbluth</em> (11:30 - 11:40 AM)<br><br>
+
+<strong>How (de)centralized is Bluesky, really?</strong><br>
+<em>Billy Pierce</em> (11:40 - 11:50 AM)
+</div>
+</details>
+
+<details class="govuk-details">
+<summary class="govuk-details__summary">
+<span class="govuk-details__summary-text"><strong>Lightning Talks</strong> (1:00 - 1:56 PM)</span>
+</summary>
+<div class="govuk-details__text">
+⚡ <strong>Discovering narrative strands and memetic lineages</strong> - Francisco Carvalho (1:00 - 1:08 PM)<br>
+⚡ <strong>Building collective intelligence at ViewSift</strong> - Alex Garcia-Joyner (1:08 - 1:16 PM)<br>
+⚡ <strong>Skysquare is context as a service</strong> - Travis Simpson (1:16 - 1:24 PM)<br>
+⚡ <strong>Making wisdom together</strong> - Anish Lakhwara (1:24 - 1:32 PM)<br>
+⚡ <strong>Reigniting the Party: Lessons from a Stalled Migration to Bluesky</strong> - Scott McGrath (1:32 - 1:40 PM)<br>
+⚡ <strong>Integrating web-based communities into the ATmosphere</strong> - Mathew Lowry (1:40 - 1:48 PM)<br>
+⚡ <strong>Computational Education Commons on the ATmosphere</strong> - Teon Brooks (1:48 - 1:56 PM)
+</div>
+</details>
+
+<details class="govuk-details">
+<summary class="govuk-details__summary">
+<span class="govuk-details__summary-text"><strong>Panel Discussion</strong> (2:10 - 2:50 PM)</span>
+</summary>
+<div class="govuk-details__text">
+<strong>Future of Science Social Media on Bluesky/ATProto</strong><br>
+Panelists: Scott McGrath, Maria Antoniak, Ariel Lighty<br><br>
+A 40-minute discussion exploring the future landscape of scientific communication and community building on ATProto.
+</div>
+</details>
+
+<details class="govuk-details">
+<summary class="govuk-details__summary">
+<span class="govuk-details__summary-text"><strong>Unconference</strong> (3:26 - 4:56 PM)</span>
+</summary>
+<div class="govuk-details__text">
+Open, participant-driven discussions and collaborative working sessions. Topics and breakout rooms will be determined by attendees during the day.
+</div>
+</details>
+
+<div class="govuk-inset-text" style="margin-top: 2rem;">
+  <strong>View on Leaflet:</strong> For an interactive version of the agenda with additional details, <a href="https://atproto2026.leaflet.pub/3mevfbw7r522w/l-quote/019c60e7-6d9d-7773-a1b3-6521afff8f21~0_0-1_0" target="_blank" rel="noopener noreferrer">view the full schedule on Leaflet</a>, an ATProto-native publishing platform.
 </div>
 
 ## FAQ
