@@ -139,7 +139,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       <a href="https://bsky.app/profile/row1.ca" class="govuk-link" target="_blank">Rowan Cockett</a>
     </h3>
     <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Keynote Speaker</p>
-    <p class="govuk-body-s" style="color: #505a5f;">Curvenote</p>
+    <p class="govuk-body-s" style="color: #505a5f;">Curvenote & Continuous Science Foundation</p>
   </div>
 
   <!-- Keynote Speaker 2 -->
@@ -265,7 +265,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       <a href="https://bsky.app/profile/billwpierce.co" class="govuk-link" target="_blank">Billy Pierce</a>
     </h3>
     <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">PhD Student</p>
-    <p class="govuk-body-s" style="color: #505a5f;">University of Washington</p>
+    <p class="govuk-body-s" style="color: #505a5f;">University of Pennsylvania</p>
   </div>
 
   <!-- Speaker 1 -->
@@ -289,7 +289,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
   <!-- Speaker 2 -->
   <div style="text-align: center;">
     <div style="position: relative; display: inline-block;">
-      <img src="/assets/images/atscience26-speakers/anish_lakhwara.jpeg" alt="Photo of Anish Lakhwara" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <img src="/assets/images/atscience26-speakers/anish_lakhwara.png" alt="Photo of Anish Lakhwara" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
       <button class="speaker-info-btn"
               data-speaker="anish-lakhwara"
               aria-label="View talk information for Anish Lakhwara"
@@ -390,7 +390,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
       <a href="https://bsky.app/profile/smcgrath.phd" class="govuk-link" target="_blank">Dr. Scott McGrath</a>
     </h3>
-    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Academic Program Management Officer IV</p>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Academic Program Management Officer</p>
     <p class="govuk-body-s" style="color: #505a5f;">UC Berkeley</p>
   </div>
 
@@ -568,7 +568,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     </div>
     <div class="speaker-dialog-body">
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
-        Academic Program Management Officer IV, UC Berkeley
+        Academic Program Management Officer, UC Berkeley
       </p>
       <h3 class="govuk-heading-s">Reigniting the Party: Lessons from a Stalled Migration to Bluesky</h3>
       <p class="govuk-body">
@@ -775,7 +775,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     </div>
     <div class="speaker-dialog-body">
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
-        PhD Student, University of Washington
+        PhD Student, University of Pennsylvania
       </p>
       <h3 class="govuk-heading-s">How (de)centralized is Bluesky, really?</h3>
       <p class="govuk-body">
