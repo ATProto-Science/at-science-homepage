@@ -69,250 +69,23 @@ View on <a href="https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6" target="_blank">Goog
 
 ## Present at ATScience 2026
 
-*The call for proposals closes at the end of January. We will review and notify speakers on a rolling basis.*
+*The call for proposals closed at the end of January. We will review and notify speakers on a rolling basis.*
 
 ## Agenda
 
-### Morning Schedule
+<strong>View on Leaflet:</strong> The full conference agenda is available on Leaflet, an ATProto-native publishing platform. View the complete schedule, speaker details, and session descriptions:
 
-<table class="govuk-table">
-  <thead class="govuk-table__head">
-    <tr class="govuk-table__row">
-      <th scope="col" class="govuk-table__header" style="width: 18%;">Time</th>
-      <th scope="col" class="govuk-table__header" style="width: 15%;">Venue</th>
-      <th scope="col" class="govuk-table__header">Talk / Session</th>
-    </tr>
-  </thead>
-  <tbody class="govuk-table__body">
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">8:30 - 9:00 AM</td>
-      <td class="govuk-table__cell">—</td>
-      <td class="govuk-table__cell"><strong>Registration & Coffee</strong></td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">9:00 - 9:15 AM</td>
-      <td class="govuk-table__cell">Auditorium</td>
-      <td class="govuk-table__cell"><strong>Opening Remarks</strong></td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">9:15 - 10:00 AM</td>
-      <td class="govuk-table__cell">Auditorium</td>
-      <td class="govuk-table__cell">
-        <strong>Keynote</strong>
-        <button class="speaker-info-btn" data-speaker="talk-keynote" aria-label="View keynote details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Rowan Cockett (Curvenote) & Matt Akamatsu (Bluesky)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row" style="background-color: #f3f2f1;">
-      <td class="govuk-table__cell" colspan="3"><strong>Building ATScience: Infrastructure Track</strong></td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">10:00 - 10:15 AM</td>
-      <td class="govuk-table__cell">Auditorium</td>
-      <td class="govuk-table__cell">
-        <strong>Semble: A social knowledge network for research on atproto</strong>
-        <button class="speaker-info-btn" data-speaker="talk-semble" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Ronen Tamari (Semble)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">10:15 - 10:30 AM</td>
-      <td class="govuk-table__cell">Auditorium</td>
-      <td class="govuk-table__cell">
-        <strong>Lea: A Social App for Researchers</strong>
-        <button class="speaker-info-btn" data-speaker="talk-lea" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Maria Antoniak (Cornell)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">10:30 - 10:45 AM</td>
-      <td class="govuk-table__cell">Auditorium</td>
-      <td class="govuk-table__cell">
-        <strong>Chive: Decentralized preprints with ATProto</strong>
-        <button class="speaker-info-btn" data-speaker="talk-chive" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Aaron White (University of Rochester)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">10:45 - 11:00 AM</td>
-      <td class="govuk-table__cell">—</td>
-      <td class="govuk-table__cell"><strong>Coffee Break</strong></td>
-    </tr>
-    <tr class="govuk-table__row" style="background-color: #f3f2f1;">
-      <td class="govuk-table__cell" colspan="3"><strong>AI & Data Track</strong></td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">11:00 - 11:15 AM</td>
-      <td class="govuk-table__cell">Auditorium</td>
-      <td class="govuk-table__cell">
-        <strong>Automated science coordination with ATProto</strong>
-        <button class="speaker-info-btn" data-speaker="talk-coordination" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Martin Karlsson (Coordination Network)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">11:15 - 11:30 AM</td>
-      <td class="govuk-table__cell">Auditorium</td>
-      <td class="govuk-table__cell">
-        <strong>atdata: Distributed datasets over atproto</strong>
-        <button class="speaker-info-btn" data-speaker="talk-atdata" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Maxine Levesque (atdata)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">11:30 - 11:40 AM</td>
-      <td class="govuk-table__cell">Auditorium</td>
-      <td class="govuk-table__cell">
-        <strong>Reproducible, citation-aware automated paper reviews</strong>
-        <button class="speaker-info-btn" data-speaker="talk-biokea" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Sean Jungbluth (BioKEA)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">11:40 - 11:50 AM</td>
-      <td class="govuk-table__cell">Auditorium</td>
-      <td class="govuk-table__cell">
-        <strong>How (de)centralized is Bluesky, really?</strong>
-        <button class="speaker-info-btn" data-speaker="talk-decentralization" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Billy Pierce (University of Washington)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">12:00 - 1:00 PM</td>
-      <td class="govuk-table__cell">—</td>
-      <td class="govuk-table__cell"><strong>Lunch Break</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-### Afternoon Schedule
-
-<table class="govuk-table">
-  <thead class="govuk-table__head">
-    <tr class="govuk-table__row">
-      <th scope="col" class="govuk-table__header" style="width: 18%;">Time</th>
-      <th scope="col" class="govuk-table__header" style="width: 15%;">Venue</th>
-      <th scope="col" class="govuk-table__header">Talk / Session</th>
-    </tr>
-  </thead>
-  <tbody class="govuk-table__body">
-    <tr class="govuk-table__row" style="background-color: #f3f2f1;">
-      <td class="govuk-table__cell" colspan="3"><strong>Lightning Talks</strong></td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">1:00 - 1:08 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell">
-        <strong>⚡ Discovering narrative strands and memetic lineages</strong>
-        <button class="speaker-info-btn" data-speaker="talk-narrative" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Francisco Carvalho (Community Archive)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">1:08 - 1:16 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell">
-        <strong>⚡ Building collective intelligence at ViewSift</strong>
-        <button class="speaker-info-btn" data-speaker="talk-viewsift" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Alex Garcia-Joyner (ViewSift)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">1:16 - 1:24 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell">
-        <strong>⚡ Skysquare is context as a service</strong>
-        <button class="speaker-info-btn" data-speaker="talk-skysquare" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Travis Simpson (Skysquare)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">1:24 - 1:32 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell">
-        <strong>⚡ Making wisdom together</strong>
-        <button class="speaker-info-btn" data-speaker="talk-seams" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Anish Lakhwara (Sealight Labs)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">1:32 - 1:40 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell">
-        <strong>⚡ Reigniting the Party: Lessons from a Stalled Migration to Bluesky</strong>
-        <button class="speaker-info-btn" data-speaker="talk-migration" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Scott McGrath (UC Berkeley)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">1:40 - 1:48 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell">
-        <strong>⚡ Integrating web-based communities into the ATmosphere</strong>
-        <button class="speaker-info-btn" data-speaker="talk-integration" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Mathew Lowry (European Commission JRC)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">1:48 - 1:56 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell">
-        <strong>⚡ Computational Education Commons on the ATmosphere</strong>
-        <button class="speaker-info-btn" data-speaker="talk-education" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Teon Brooks (Gotham Data Clinic)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">1:56 - 2:10 PM</td>
-      <td class="govuk-table__cell">—</td>
-      <td class="govuk-table__cell"><strong>Afternoon Coffee Break</strong></td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">2:10 - 2:50 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell">
-        <strong>Panel: Future of Science Social Media on Bluesky/ATProto</strong>
-        <button class="speaker-info-btn" data-speaker="talk-panel" aria-label="View panel details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Scott McGrath, Maria Antoniak, Ariel Lighty</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">2:50 - 3:10 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell">
-        <strong>Chive: Decentralized preprints with ATProto (Extended)</strong>
-        <button class="speaker-info-btn" data-speaker="talk-chive" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Aaron White (University of Rochester)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">3:10 - 3:18 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell">
-        <strong>⚡ Owning your Identity: Fostering Community Control of Attribution</strong>
-        <button class="speaker-info-btn" data-speaker="talk-identity" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Laurel Haak (Verime)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">3:18 - 3:26 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell">
-        <strong>⚡ Automated Research Metadata for Delightful Science</strong>
-        <button class="speaker-info-btn" data-speaker="talk-metadata" aria-label="View talk details" style="background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 24px; height: 24px; color: white; cursor: pointer; font-weight: bold; font-size: 14px; margin-left: 0.5rem;">i</button>
-        <br><em>Ellie DeSota (Quantum Biology Institute)</em>
-      </td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">3:26 - 4:56 PM</td>
-      <td class="govuk-table__cell">Lounge</td>
-      <td class="govuk-table__cell"><strong>Unconference</strong><br>Open, participant-driven discussions and collaborative working sessions</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="govuk-inset-text" style="margin-top: 2rem;">
-  <strong>View on Leaflet:</strong> For an interactive version of the agenda with additional details, <a href="https://atproto2026.leaflet.pub/3mevfbw7r522w/l-quote/019c60e7-6d9d-7773-a1b3-6521afff8f21~0_0-1_0" target="_blank" rel="noopener noreferrer">view the full schedule on Leaflet</a>, an ATProto-native publishing platform.
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="https://atscience.leaflet.pub/3mfz526irfs2y"
+     class="govuk-button govuk-button--start"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="margin-bottom: 0;">
+    View Full Agenda on Leaflet
+    <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"/>
+    </svg>
+  </a>
 </div>
 
 ## Speakers
@@ -387,7 +160,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       <a href="https://bsky.app/profile/matt.blue" class="govuk-link" target="_blank">Matt Akamatsu</a>
     </h3>
     <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Keynote Speaker</p>
-    <p class="govuk-body-s" style="color: #505a5f;">Bluesky</p>
+    <p class="govuk-body-s" style="color: #505a5f;">University of Washington</p>
   </div>
 
   <!-- Long Talk Speaker 1 -->
@@ -867,7 +640,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     </div>
     <div class="speaker-dialog-body">
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
-        Keynote Speaker, Bluesky
+        Keynote Speaker, University of Washington
       </p>
       <h3 class="govuk-heading-s">Opening Keynote</h3>
       <p class="govuk-body">
