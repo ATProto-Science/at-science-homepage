@@ -614,7 +614,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     </div>
     <div class="speaker-dialog-body">
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
-        Keynote Speaker, Curvenote
+        Keynote Speaker, Curvenote and Continuous Science Foundation
       </p>
       <h3 class="govuk-heading-s">Opening Keynote</h3>
       <p class="govuk-body">
