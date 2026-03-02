@@ -67,9 +67,6 @@ View on <a href="https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6" target="_blank">Goog
 > Tickets for online-only attendance are free of charge.
 > **<a href="#" target="_blank">Register for Online-only Tickets</a>** -->
 
-## Present at ATScience 2026
-
-*The call for proposals closed at the end of January. We will review and notify speakers on a rolling basis.*
 
 ## Agenda
 
