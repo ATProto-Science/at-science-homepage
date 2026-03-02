@@ -177,8 +177,8 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
       <a href="https://bsky.app/profile/ronentk.me" class="govuk-link" target="_blank">Ronen Tamari</a>
     </h3>
-    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Researcher</p>
-    <p class="govuk-body-s" style="color: #505a5f;">Semble</p>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Co-founder</p>
+    <p class="govuk-body-s" style="color: #505a5f;">Cosmik</p>
   </div>
 
   <!-- Long Talk Speaker 2 -->
@@ -621,7 +621,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       </p>
       <h3 class="govuk-heading-s">Opening Keynote</h3>
       <p class="govuk-body">
-        Opening keynote presentation setting the stage for ATProto in science and education.
+        Opening keynote presentation setting the stage for ATProto Science (details TBA).
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
         <a href="https://bsky.app/profile/row1.ca" class="govuk-link" target="_blank">View profile on Bluesky</a>
@@ -644,7 +644,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       </p>
       <h3 class="govuk-heading-s">Opening Keynote</h3>
       <p class="govuk-body">
-        Opening keynote presentation setting the stage for ATProto in science and education.
+        Opening keynote presentation setting the stage for ATProto Science (details TBA).
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
         <a href="https://bsky.app/profile/matt.blue" class="govuk-link" target="_blank">View profile on Bluesky</a>
@@ -665,9 +665,9 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
         Researcher, Semble
       </p>
-      <h3 class="govuk-heading-s">Semble: A social knowledge network for research on atproto</h3>
+      <h3 class="govuk-heading-s">Semble: A social knowledge network for research on ATProto</h3>
       <p class="govuk-body">
-        Presenting Semble, a social knowledge network built on ATProto designed to facilitate collaborative research and knowledge sharing.
+        We’ll present Semble, a kind of “Spotify for research” enabling researchers to curate shareable collections, create knowledge trails that others can explore and extend, and discover relevant work shared with the network. Built on ATProto, Semble offers researchers data portability and an open API designed for extension. We'll discuss how Semble enables new kinds of research tooling, from living semantic citation graphs to collaborative review and annotation. We'll also share how Semble connects to Cosmik's broader work on collective intelligence, and opportunities for collaboration across the ATProto science ecosystem.
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
         <a href="https://bsky.app/profile/ronentk.me" class="govuk-link" target="_blank">View profile on Bluesky</a>
