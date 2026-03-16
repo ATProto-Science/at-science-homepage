@@ -412,6 +412,57 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     <p class="govuk-body-s" style="color: #505a5f;">University of Maryland</p>
   </div>
 
+  <!-- Speaker 9 -->
+  <div style="text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/people/people-mathew-lowry.png" alt="Photo of Mathew Lowry" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="mathew-lowry"
+              aria-label="View talk information for Mathew Lowry"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/mathewlowry.bsky.social" class="govuk-link" target="_blank">Mathew Lowry</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Information Architect</p>
+    <p class="govuk-body-s" style="color: #505a5f;">EU Commission</p>
+  </div>
+  <!-- Speaker 10 -->
+  <div style="text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/ellie_desota.jpg" alt="Photo of Ellie DeSota" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="ellie-desota"
+              aria-label="View talk information for Ellie DeSota"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/ellieos.bsky.social" class="govuk-link" target="_blank">Ellie DeSota</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Co-director</p>
+    <p class="govuk-body-s" style="color: #505a5f;">SciOS</p>
+  </div>
+  <!-- Speaker 11 -->
+  <div style="text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/laurel_haak.jpg" alt="Photo of Laurel Haak" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="laurel-haak"
+              aria-label="View talk information for Laurel Haak"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/verime.coop" class="govuk-link" target="_blank">Laurel Haak</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Co-Founder</p>
+    <p class="govuk-body-s" style="color: #505a5f;">VeriMe Cooperative</p>
+  </div>
   <!-- Add more speakers as needed -->
 
 </div>
@@ -788,6 +839,75 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
   </div>
 </dialog>
 
+<dialog id="dialog-mathew-lowry" class="speaker-dialog" aria-labelledby="dialog-mathew-lowry-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-mathew-lowry-title" class="govuk-heading-m">Mathew Lowry</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Information Architect, EU Commission
+      </p>
+      <h3 class="govuk-heading-s">Your research institution in the Atmosphere</h3>
+      <p class="govuk-body">
+        Research institutions face a structural gap between institutional knowledge (formal, slow, siloed) and the personal knowledge networks (informal, fast, distributed) of their faculty and students. The Atmosphere is the first infrastructure that can bridge this gap — not by centralising personal knowledge, but by making both layers speak the same protocol.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/mathewlowry.bsky.social" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-ellie-desota" class="speaker-dialog" aria-labelledby="dialog-ellie-desota-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-ellie-desota-title" class="govuk-heading-m">Ellie DeSota</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Co-director, SciOS
+      </p>
+      <h3 class="govuk-heading-s">Automated Research Metadata for Delightful Science</h3>
+      <p class="govuk-body">
+        The Quantum Biology Institute, participated in an Automated Metadata FAIRification pilot from June through December 2025 led by SciOS. This 6-month project transformed their workflow from a manual one to one in which their lab notebooks, code, and data was automatically openly published with fully FAIR metadata for open accessibility. I would speak on the learnings and gaps in this process.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/ellieos.bsky.social" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-laurel-haak" class="speaker-dialog" aria-labelledby="dialog-laurel-haak-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-laurel-haak-title" class="govuk-heading-m">Laurel Haak</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Co-Founder, VeriMe Cooperative
+      </p>
+      <h3 class="govuk-heading-s">Owning your Identity: Fostering Community Control of Attribution</h3>
+      <p class="govuk-body">
+        Focused on making distribution easier and faster, we researchers have ceded control of our creative work to third parties. This has had significant implications for attribution, integrity, accountability, and public trust. What if, instead of going after speed, we took a breath, and prioritized community? What would community-based identity and attribution look like?
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/verime.coop" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
 <!-- Talk Dialogs -->
 <dialog id="dialog-talk-keynote" class="speaker-dialog" aria-labelledby="dialog-talk-keynote-title">
   <div class="speaker-dialog-content">
@@ -1106,7 +1226,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     </div>
     <div class="speaker-dialog-body">
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
-        3:10 - 3:18 PM | Laurel Haak (Verime)
+        3:10 - 3:18 PM | Laurel Haak (VeriMe Cooperative)
       </p>
       <p class="govuk-body">
         Focused on making distribution easier and faster, we researchers have ceded control of our creative work to third parties. This has had significant implications for attribution, integrity, accountability, and public trust. What if, instead of going after speed, we took a breath, and prioritized community? What would community-based identity and attribution look like?
@@ -1125,7 +1245,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     </div>
     <div class="speaker-dialog-body">
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
-        3:18 - 3:26 PM | Ellie DeSota (Quantum Biology Institute)
+        3:18 - 3:26 PM | Ellie DeSota (SciOS)
       </p>
       <p class="govuk-body">
         The Quantum Biology Institute, participated in an Automated Metadata FAIRification pilot from June through December 2025 led by SciOS. This 6-month project transformed their workflow from a manual one to one in which their lab notebooks, code, and data was automatically openly published with fully FAIR metadata for open accessibility. I would speak on the learnings and gaps in this process.
