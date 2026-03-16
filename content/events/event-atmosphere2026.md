@@ -897,7 +897,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
         Co-Founder, VeriMe Cooperative
       </p>
-      <h3 class="govuk-heading-s">Can decentralists cooperate? Rethinking commons and collective action in the age of platforms and AI </h3>
+      <h3 class="govuk-heading-s">Panel: Can decentralists cooperate? Rethinking commons and collective action in the age of platforms and AI </h3>
       <p class="govuk-body">
         Details TBA
       </p>
