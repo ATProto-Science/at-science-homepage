@@ -154,7 +154,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       </button>
     </div>
     <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
-      <a href="https://bsky.app/profile/matt.blue" class="govuk-link" target="_blank">Matt Akamatsu</a>
+      <a href="https://bsky.app/profile/matsulab.com" class="govuk-link" target="_blank">Matt Akamatsu</a>
     </h3>
     <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Keynote Speaker</p>
     <p class="govuk-body-s" style="color: #505a5f;">University of Washington</p>
