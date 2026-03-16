@@ -87,9 +87,9 @@ View on <a href="https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6" target="_blank">Goog
 
 ## Speakers
 
-<div class="govuk-inset-text">
+<!-- <div class="govuk-inset-text">
   More speakers will be announced soon. Follow <a href="http://bsky.app/profile/atproto.science" target="_blank">@atproto.science</a> on Bluesky for updates.
-</div>
+</div> -->
 
 <!--
 Template for adding speakers with talk description overlays:
@@ -432,7 +432,7 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
   <!-- Speaker 10 -->
   <div style="text-align: center;">
     <div style="position: relative; display: inline-block;">
-      <img src="/assets/images/atscience26-speakers/ellie_desota.jpg" alt="Photo of Ellie DeSota" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <img src="/assets/images/atscience26-speakers/ellie_desota.jpeg" alt="Photo of Ellie DeSota" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
       <button class="speaker-info-btn"
               data-speaker="ellie-desota"
               aria-label="View talk information for Ellie DeSota"
@@ -667,9 +667,9 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
         Keynote Speaker, Curvenote and Continuous Science Foundation
       </p>
-      <h3 class="govuk-heading-s">Opening Keynote</h3>
+      <h3 class="govuk-heading-s">Opening Keynote (with Matt Akamatsu)</h3>
       <p class="govuk-body">
-        Opening keynote presentation setting the stage for ATProto Science (details TBA).
+        The traditional scientific record—anchored in static, monolithic PDFs and siloed journals—is increasingly ill-equipped to handle the speed and complexity of modern discovery. This keynote explores a transition toward Modular Open Science: a future where research is a continuous, federated, and computable graph of knowledge. We outline a vision to move beyond isolated papers toward a world of interoperable research objects and introduce how the Open Exchange Architecture (OXA) and Discourse Graphs provide structural standards for this shift and can leverage the AT Protocol as a decentralized backbone. Additionally, we will discuss how tools like Curvenote and Discourse Graphs have enabled researchers to capture the computational origins of research and the granular logic of scientific inquiry in real-time, supporting networked research collaborations. Join us as we outline a roadmap for a modular ecosystem where data, code, and discourse are seamlessly integrated, verifiable, and interoperable.
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
         <a href="https://bsky.app/profile/row1.ca" class="govuk-link" target="_blank">View profile on Bluesky</a>
@@ -690,9 +690,9 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
         Keynote Speaker, University of Washington
       </p>
-      <h3 class="govuk-heading-s">Opening Keynote</h3>
+      <h3 class="govuk-heading-s">Opening Keynote (with Rowan Cockett)</h3>
       <p class="govuk-body">
-        Opening keynote presentation setting the stage for ATProto Science (details TBA).
+        The traditional scientific record—anchored in static, monolithic PDFs and siloed journals—is increasingly ill-equipped to handle the speed and complexity of modern discovery. This keynote explores a transition toward Modular Open Science: a future where research is a continuous, federated, and computable graph of knowledge. We outline a vision to move beyond isolated papers toward a world of interoperable research objects and introduce how the Open Exchange Architecture (OXA) and Discourse Graphs provide structural standards for this shift and can leverage the AT Protocol as a decentralized backbone. Additionally, we will discuss how tools like Curvenote and Discourse Graphs have enabled researchers to capture the computational origins of research and the granular logic of scientific inquiry in real-time, supporting networked research collaborations. Join us as we outline a roadmap for a modular ecosystem where data, code, and discourse are seamlessly integrated, verifiable, and interoperable.
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
         <a href="https://bsky.app/profile/matt.blue" class="govuk-link" target="_blank">View profile on Bluesky</a>
@@ -874,9 +874,9 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
         Co-director, SciOS
       </p>
-      <h3 class="govuk-heading-s">Automated Research Metadata for Delightful Science</h3>
+      <h3 class="govuk-heading-s">Panel: Can decentralists cooperate? Rethinking commons and collective action in the age of platforms and AI </h3>
       <p class="govuk-body">
-        The Quantum Biology Institute, participated in an Automated Metadata FAIRification pilot from June through December 2025 led by SciOS. This 6-month project transformed their workflow from a manual one to one in which their lab notebooks, code, and data was automatically openly published with fully FAIR metadata for open accessibility. I would speak on the learnings and gaps in this process.
+        Details TBA
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
         <a href="https://bsky.app/profile/ellieos.bsky.social" class="govuk-link" target="_blank">View profile on Bluesky</a>
@@ -897,9 +897,9 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
         Co-Founder, VeriMe Cooperative
       </p>
-      <h3 class="govuk-heading-s">Owning your Identity: Fostering Community Control of Attribution</h3>
+      <h3 class="govuk-heading-s">Can decentralists cooperate? Rethinking commons and collective action in the age of platforms and AI </h3>
       <p class="govuk-body">
-        Focused on making distribution easier and faster, we researchers have ceded control of our creative work to third parties. This has had significant implications for attribution, integrity, accountability, and public trust. What if, instead of going after speed, we took a breath, and prioritized community? What would community-based identity and attribution look like?
+        Details TBA
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
         <a href="https://bsky.app/profile/verime.coop" class="govuk-link" target="_blank">View profile on Bluesky</a>
