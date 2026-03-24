@@ -463,6 +463,58 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
     <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Co-Founder</p>
     <p class="govuk-body-s" style="color: #505a5f;">VeriMe Cooperative</p>
   </div>
+  <!-- Speaker 12 -->
+  <div style="text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/nick_vincent.jpg" alt="Photo of Nick Vincent" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="nick-vincent"
+              aria-label="View talk information for Nick Vincent"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/nickmvincent.bsky.social" class="govuk-link" target="_blank">Nick Vincent</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Assistant Prof.</p>
+    <p class="govuk-body-s" style="color: #505a5f;">Simon Fraser University</p>
+  </div>
+  <!-- Speaker 13 -->
+  <div style="text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/torsten_goerke.jpg" alt="Photo of Torsten Goerke" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="torsten-goerke"
+              aria-label="View talk information for Torsten Goerke"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/tgoerke.bsky.social" class="govuk-link" target="_blank">Torsten Goerke</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Research Associate</p>
+    <p class="govuk-body-s" style="color: #505a5f;">TU Dresden</p>
+  </div>
+
+  <!-- Speaker 14 -->
+  <div style="text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/assets/images/atscience26-speakers/paul_fuxjaeger.jpg" alt="Photo of Paul Fuxjäger" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+      <button class="speaker-info-btn"
+              data-speaker="paul-fuxjaeger"
+              aria-label="View talk information for Paul Fuxjäger"
+              style="position: absolute; top: 0; right: 0; background: rgba(0, 0, 128, 0.9); border: 2px solid white; border-radius: 50%; width: 32px; height: 32px; color: white; cursor: pointer; font-weight: bold; font-size: 18px;">
+        i
+      </button>
+    </div>
+    <h3 class="govuk-heading-s" style="margin-bottom: 0.25rem;">
+      <a href="https://bsky.app/profile/cypherhippie.bsky.social" class="govuk-link" target="_blank">Paul Fuxjäger</a>
+    </h3>
+    <p class="govuk-body-s" style="margin-bottom: 0.25rem; color: #505a5f;">Research Associate</p>
+    <p class="govuk-body-s" style="color: #505a5f;">University of Vienna</p>
+  </div>
   <!-- Add more speakers as needed -->
 
 </div>
@@ -874,9 +926,9 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
         Co-director, SciOS
       </p>
-      <h3 class="govuk-heading-s">Panel: Can decentralists cooperate? Rethinking commons and collective action in the age of platforms and AI </h3>
+      <h3 class="govuk-heading-s">Panel: Can decentralists cooperate? Rethinking commons and collective action in the age of platforms and AI</h3>
       <p class="govuk-body">
-        Details TBA
+        With increasing commodification of research come challenges to connection, communication, and research integrity. ATProto's open protocol, extensibility, and large uptake by researchers provides a unique moment of opportunity to reassert community control in the commons, and specifically in processes of science publishing and communication. But is merely building new technology on open protocols enough? This panel will explore how challenges facing the broader atproto ecosystem are mirrored in its open science applications.
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
         <a href="https://bsky.app/profile/ellieos.bsky.social" class="govuk-link" target="_blank">View profile on Bluesky</a>
@@ -897,12 +949,81 @@ See SPEAKER_DIALOG_GUIDE.md for complete instructions and examples.
       <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
         Co-Founder, VeriMe Cooperative
       </p>
-      <h3 class="govuk-heading-s">Panel: Can decentralists cooperate? Rethinking commons and collective action in the age of platforms and AI </h3>
+      <h3 class="govuk-heading-s">Panel: Can decentralists cooperate? Rethinking commons and collective action in the age of platforms and AI</h3>
       <p class="govuk-body">
-        Details TBA
+        With increasing commodification of research come challenges to connection, communication, and research integrity. ATProto's open protocol, extensibility, and large uptake by researchers provides a unique moment of opportunity to reassert community control in the commons, and specifically in processes of science publishing and communication. But is merely building new technology on open protocols enough? This panel will explore how challenges facing the broader atproto ecosystem are mirrored in its open science applications.
       </p>
       <p class="govuk-body" style="margin-top: 1rem;">
         <a href="https://bsky.app/profile/verime.coop" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-torsten-goerke" class="speaker-dialog" aria-labelledby="dialog-torsten-goerke-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-torsten-goerke-title" class="govuk-heading-m">Torsten Goerke</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Research Associate, TU Dresden
+      </p>
+      <h3 class="govuk-heading-s">Strategic Cross-Protocol Partnerships</h3>
+      <p class="govuk-body">
+        ATProto and ActivityPub are the two most serious open social web protocols today — and they almost never talk to each other. Both ecosystems want universities to own their infrastructure, both reject proprietary silos, and both are drafting governance frameworks for research communities. This talk makes the case for deliberate cross-protocol cooperation: not convergence, but alignment on a small set of shared values that unlocks structural gains for science and academia.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/tgoerke.bsky.social" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-paul-fuxjaeger" class="speaker-dialog" aria-labelledby="dialog-paul-fuxjaeger-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-paul-fuxjaeger-title" class="govuk-heading-m">Paul Fuxjäger</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Research Associate, University of Vienna
+      </p>
+      <h3 class="govuk-heading-s">Strategic Cross-Protocol Partnerships</h3>
+      <p class="govuk-body">
+        ATProto and ActivityPub are the two most serious open social web protocols today — and they almost never talk to each other. Both ecosystems want universities to own their infrastructure, both reject proprietary silos, and both are drafting governance frameworks for research communities. This talk makes the case for deliberate cross-protocol cooperation: not convergence, but alignment on a small set of shared values that unlocks structural gains for science and academia.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/cypherhippie.bsky.social" class="govuk-link" target="_blank">View profile on Bluesky</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dialog-nick-vincent" class="speaker-dialog" aria-labelledby="dialog-nick-vincent-title">
+  <div class="speaker-dialog-content">
+    <div class="speaker-dialog-header">
+      <h2 id="dialog-nick-vincent-title" class="govuk-heading-m">Nick Vincent</h2>
+      <button class="speaker-dialog-close" aria-label="Close dialog" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <div class="speaker-dialog-body">
+      <p class="govuk-body-s" style="color: #505a5f; margin-bottom: 1rem;">
+        Assistant Prof., Simon Fraser University
+      </p>
+      <h3 class="govuk-heading-s">Panel: Can decentralists cooperate? Rethinking commons and collective action in the age of platforms and AI</h3>
+      <p class="govuk-body">
+        With increasing commodification of research come challenges to connection, communication, and research integrity. ATProto's open protocol, extensibility, and large uptake by researchers provides a unique moment of opportunity to reassert community control in the commons, and specifically in processes of science publishing and communication. But is merely building new technology on open protocols enough? This panel will explore how challenges facing the broader atproto ecosystem are mirrored in its open science applications.
+      </p>
+      <p class="govuk-body" style="margin-top: 1rem;">
+        <a href="https://bsky.app/profile/nickmvincent.bsky.social" class="govuk-link" target="_blank">View profile on Bluesky</a>
       </p>
     </div>
   </div>
