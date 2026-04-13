@@ -34,18 +34,6 @@ related:
 #       Lorem Ipsum News.
 ---
 
-<div class="govuk-notification-banner" role="region" aria-labelledby="govuk-notification-banner-title" data-module="govuk-notification-banner">
-  <div class="govuk-notification-banner__header">
-    <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
-      Join us at ATScience 2026
-    </h2>
-  </div>
-  <div class="govuk-notification-banner__content">
-    <p class="govuk-body">Join us in Vancouver on March 27, 2026, for a full-day exploration of AT Protocol for science, education, and open knowledge. A side event to AtmosphereConf 2026 (March 26-29, 2026).</p>
-
-    <p class="govuk-body"><a class="govuk-link" href="/events/atmosphere2026">Learn more and register &#8594;</a></p>
-  </div>
-</div>
 
 <!-- <div class="govuk-grid-row">
   <section class="govuk-grid-column-one-third-from-desktop">
