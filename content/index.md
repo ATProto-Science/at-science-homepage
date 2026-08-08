@@ -98,6 +98,7 @@ This is an evolving space, and we're actively learning from the community about 
 
 -  [Connect on Bluesky &#8594;](https://bsky.app/profile/atproto.science)
 -  [Follow the ATScience Feed &#8594;](https://bsky.app/profile/atproto.science/feed/ATProto-Science)
+-  [Read the Blog &#8594;](https://atscience.leaflet.pub/)
 
 
 > [!TIP]
