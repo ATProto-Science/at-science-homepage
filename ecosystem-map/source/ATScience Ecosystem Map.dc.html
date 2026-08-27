@@ -43,11 +43,11 @@
       </a>
       <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; align-items: center; justify-content: space-between;">
         <p style="margin: 0; font-size: 16px; color: #6d6b63; text-wrap: pretty;">Research applications, infrastructure and communities on AT Protocol</p>
-        <div style="display: flex; align-items: center; gap: 14px;">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;">
           <span style="font-size: 12.5px; color: #9b988e; font-family: 'IBM Plex Mono', monospace; white-space: nowrap;">{{ metaLine }}</span>
-          <div style="display: flex; align-items: center; gap: 7px; background: #ffffff; border: 1px solid #e2e0d9; border-radius: 8px; padding: 0 10px; height: 34px; min-width: 232px;">
+          <div style="display: flex; align-items: center; gap: 7px; background: #ffffff; border: 1px solid #e2e0d9; border-radius: 8px; padding: 0 10px; height: 34px; flex: 1 1 232px; min-width: 0;">
             <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #b3b0a6;">/</span>
-            <input type="search" value="{{ q }}" onChange="{{ onSearch }}" placeholder="Search projects" aria-label="Search projects" style="border: 0; outline: none; background: transparent; font-size: 13px; width: 100%; color: #1b1b19;">
+            <input type="search" value="{{ q }}" onChange="{{ onSearch }}" placeholder="Search projects" aria-label="Search projects" style="border: 0; outline: none; background: transparent; font-size: 16px; width: 100%; color: #1b1b19;">
             <sc-if value="{{ hasQuery }}">
               <button onClick="{{ clearSearch }}" aria-label="Clear search" style="border: 0; background: transparent; cursor: pointer; color: #a09d93; font-size: 14px; line-height: 1; padding: 2px;" style-hover="color:#1b1b19">×</button>
             </sc-if>
