@@ -27,20 +27,22 @@
 <div ref="{{ setRoot }}" style="min-height: 100vh; padding: 30px 26px 60px;">
   <div style="max-width: 1200px; margin: 0 auto;">
 
-    <div style="display: flex; flex-wrap: wrap; gap: 18px 24px; align-items: flex-end; justify-content: space-between; padding-bottom: 18px; border-bottom: 1px solid #e8e6e0;">
-      <div>
-        <div style="display: flex; align-items: baseline; gap: 10px;">
-          <h1 style="margin: 0; font-size: 27px; font-weight: 600; letter-spacing: -0.025em; color: #171715;">ATScience</h1>
-          <span style="font-size: 12.5px; color: #9b988e; font-family: 'IBM Plex Mono', monospace;">{{ metaLine }}</span>
+    <div style="display: flex; flex-direction: column; gap: 12px; padding-bottom: 18px; border-bottom: 1px solid #e8e6e0;">
+      <a href="/" aria-label="ATScience home" style="display: inline-flex; align-items: center; align-self: flex-start;">
+        <img src="./uploads/ATScience-Logo-RGB-Black.svg" alt="ATScience" style="height: 80px; width: auto; display: block;">
+      </a>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; align-items: center; justify-content: space-between;">
+        <p style="margin: 0; font-size: 16px; color: #6d6b63; text-wrap: pretty;">Research applications, infrastructure and communities on AT Protocol</p>
+        <div style="display: flex; align-items: center; gap: 14px;">
+          <span style="font-size: 12.5px; color: #9b988e; font-family: 'IBM Plex Mono', monospace; white-space: nowrap;">{{ metaLine }}</span>
+          <div style="display: flex; align-items: center; gap: 7px; background: #ffffff; border: 1px solid #e2e0d9; border-radius: 8px; padding: 0 10px; height: 34px; min-width: 232px;">
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #b3b0a6;">/</span>
+            <input type="search" value="{{ q }}" onChange="{{ onSearch }}" placeholder="Search projects" aria-label="Search projects" style="border: 0; outline: none; background: transparent; font-size: 13px; width: 100%; color: #1b1b19;">
+            <sc-if value="{{ hasQuery }}">
+              <button onClick="{{ clearSearch }}" aria-label="Clear search" style="border: 0; background: transparent; cursor: pointer; color: #a09d93; font-size: 14px; line-height: 1; padding: 2px;" style-hover="color:#1b1b19">×</button>
+            </sc-if>
+          </div>
         </div>
-        <p style="margin: 7px 0 0; font-size: 13.5px; color: #6d6b63; max-width: 52ch; text-wrap: pretty;">Research applications, infrastructure and communities on AT Protocol</p>
-      </div>
-      <div style="display: flex; align-items: center; gap: 7px; background: #ffffff; border: 1px solid #e2e0d9; border-radius: 8px; padding: 0 10px; height: 34px; min-width: 232px;">
-        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #b3b0a6;">/</span>
-        <input type="search" value="{{ q }}" onChange="{{ onSearch }}" placeholder="Search projects" aria-label="Search projects" style="border: 0; outline: none; background: transparent; font-size: 13px; width: 100%; color: #1b1b19;">
-        <sc-if value="{{ hasQuery }}">
-          <button onClick="{{ clearSearch }}" aria-label="Clear search" style="border: 0; background: transparent; cursor: pointer; color: #a09d93; font-size: 14px; line-height: 1; padding: 2px;" style-hover="color:#1b1b19">×</button>
-        </sc-if>
       </div>
     </div>
 
@@ -159,7 +161,7 @@ const PROJECTS = [
   { name: "Margin.at", category: "annotation-knowledge-tools", description: "Social bookmarks and annotations on ATProto", url: "https://margin.at", repo: "https://tangled.org/margin.at/margin", handle: "margin.at", status: "live" },
   { name: "Semble", category: "annotation-knowledge-tools", description: "A social knowledge network for following your peers' research trails.", url: "https://semble.so", repo: "https://github.com/cosmik-network/semble", handle: "semble.so", status: "live" },
   { name: "Skysquare", category: "annotation-knowledge-tools", description: "Social annotation and context layer over articles", url: "https://skysquare.app/", repo: "https://github.com/Industrial-Semiotics", handle: "skysquare.app", status: "live" },
-  { name: "BlueNotes", category: "annotation-knowledge-tools", description: "Specifications for an open and interoperable Community Notes protocol by Johnathan Warden", repo: "https://github.com/johnwarden/bluenotes", icon: "https://github.com/favicon.ico", status: "code" },
+  { name: "BlueNotes", category: "annotation-knowledge-tools", description: "Specifications for an open and interoperable Community Notes protocol by Johnathan Warden", repo: "https://github.com/johnwarden/bluenotes", icon: "https://github.com/favicon.ico", handle: "bluenotes.social", status: "code" },
   { name: "Layers", category: "annotation-knowledge-tools", description: "Linguistic annotation on ATProto", url: "https://layers.pub/", repo: "https://github.com/layers-pub/layers", icon: "https://layers.pub/logo.png", status: "in-development" },
   { name: "ViewSift", category: "annotation-knowledge-tools", description: "Evidence-based discussion platform", url: "https://viewsift.com/", icon: "https://viewsift.com/assets/assets/icon-small.f76b4f4d9bfdee0d13e559917c7352d3.png", status: "in-development" },
   { name: "SciOS Graph Infrastructure", category: "annotation-knowledge-tools", description: "Graph-based interface for creating and viewing modular research components, using the mira.science (Discourse Graphs) schema", url: "https://graph.scios.tech/", icon: "https://www.scios.tech/favicon.ico", handle: "scios.tech", status: "concept" },

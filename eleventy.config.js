@@ -37,7 +37,11 @@ export default function(eleventyConfig) {
         },
         {
           text: 'Ecosystem Map',
-          href: '/ecosystem'
+          href: '/ecosystem',
+          attributes: {
+            target: '_blank',
+            rel: 'noopener noreferrer'
+          }
         },
         {
           text: 'Blog',
