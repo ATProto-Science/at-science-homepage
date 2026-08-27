@@ -25,6 +25,8 @@ related:
           href: /people
         - text: Projects
           href: /projects
+        - text: Ecosystem Map
+          href: /ecosystem
         # - text: Post
         #   href: /post
 # eleventyComputed:
