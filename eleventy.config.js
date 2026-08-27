@@ -35,6 +35,18 @@ export default function(eleventyConfig) {
           text: 'Projects',
           href: '/projects'
         },
+        {
+          text: 'Ecosystem Map',
+          href: '/ecosystem'
+        },
+        {
+          text: 'Blog',
+          href: 'https://atscience.leaflet.pub/',
+          attributes: {
+            target: '_blank',
+            rel: 'noopener noreferrer'
+          }
+        },
 
       ]
     },
@@ -60,6 +72,13 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('content/assets/icon')
   eleventyConfig.addPassthroughCopy('content/assets/og')
   eleventyConfig.addPassthroughCopy('content/assets/speaker-dialog.js')
+
+  // Ecosystem map: standalone Dropcode component, served as-is at /ecosystem/
+  eleventyConfig.addPassthroughCopy({
+    'ecosystem-map/source/ATScience Ecosystem Map.dc.html': 'ecosystem/index.html',
+    'ecosystem-map/source/support.js': 'ecosystem/support.js',
+    'ecosystem-map/source/uploads': 'ecosystem/uploads'
+  })
 
   // Custom computed data for event metadata
   eleventyConfig.addGlobalData('eleventyComputed', {

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { background: #faf9f7; color: #1b1b19; font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: oklch(0.52 0.14 250); text-decoration: none; }
+  a:hover { color: oklch(0.42 0.15 250); text-decoration: underline; }
+  button { font: inherit; color: inherit; }
+  input { font: inherit; }
+  ::placeholder { color: #aba89e; }
+  @keyframes atsIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+</style>
+</helmet>
+<div ref="{{ setRoot }}" style="min-height: 100vh; padding: 30px 26px 60px;">
+  <div style="max-width: 1200px; margin: 0 auto;">
+
+    <div style="display: flex; flex-wrap: wrap; gap: 18px 24px; align-items: flex-end; justify-content: space-between; padding-bottom: 18px; border-bottom: 1px solid #e8e6e0;">
+      <div>
+        <div style="display: flex; align-items: baseline; gap: 10px;">
+          <h1 style="margin: 0; font-size: 27px; font-weight: 600; letter-spacing: -0.025em; color: #171715;">ATScience</h1>
+          <span style="font-size: 12.5px; color: #9b988e; font-family: 'IBM Plex Mono', monospace;">{{ metaLine }}</span>
+        </div>
+        <p style="margin: 7px 0 0; font-size: 13.5px; color: #6d6b63; max-width: 52ch; text-wrap: pretty;">Research applications, infrastructure and communities on AT Protocol</p>
+      </div>
+      <div style="display: flex; align-items: center; gap: 7px; background: #ffffff; border: 1px solid #e2e0d9; border-radius: 8px; padding: 0 10px; height: 34px; min-width: 232px;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #b3b0a6;">/</span>
+        <input type="search" value="{{ q }}" onChange="{{ onSearch }}" placeholder="Search projects" aria-label="Search projects" style="border: 0; outline: none; background: transparent; font-size: 13px; width: 100%; color: #1b1b19;">
+        <sc-if value="{{ hasQuery }}">
+          <button onClick="{{ clearSearch }}" aria-label="Clear search" style="border: 0; background: transparent; cursor: pointer; color: #a09d93; font-size: 14px; line-height: 1; padding: 2px;" style-hover="color:#1b1b19">×</button>
+        </sc-if>
+      </div>
+    </div>
+
+    
+
+    <div style="display: flex; flex-direction: {{ mainDir }}; gap: 20px; align-items: flex-start;">
+
+      <div style="flex: 1 1 auto; min-width: 0; width: 100%; column-width: {{ colWidth }}; column-gap: 14px;">
+        <sc-for list="{{ groups }}" as="g" hint-placeholder-count="8">
+          <div style="break-inside: avoid; margin: 0 0 14px;">
+            <div style="background: #ffffff; border: 1px solid #e8e6e0; border-radius: 11px; overflow: hidden;">
+              <button onClick="{{ g.onToggle }}" aria-expanded="{{ g.open }}" style="width: 100%; display: flex; align-items: center; gap: 9px; text-align: left; padding: 11px 13px; border: 0; border-bottom: 1px solid {{ g.headerBd }}; background: {{ g.headerBg }}; cursor: pointer;" style-hover="filter:brightness(0.985)" style-focus="outline:2px solid {{ g.accent }}; outline-offset:-2px">
+                <span style="flex: 1; min-width: 0; font-size: 11px; font-weight: 600; letter-spacing: 0.075em; text-transform: uppercase; color: {{ g.labelColor }}; overflow-wrap: anywhere;">{{ g.label }}</span>
+                <span style="flex: none; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #9b988e;">{{ g.count }}</span>
+                <span style="flex: none; font-size: 9px; color: #b3b0a6; width: 9px;">{{ g.chev }}</span>
+              </button>
+              <sc-if value="{{ g.open }}" hint-placeholder-val="{{ true }}">
+                <div style="padding: 5px;">
+                  <sc-for list="{{ g.items }}" as="p" hint-placeholder-count="3">
+                    <button onClick="{{ p.onSelect }}" style="width: 100%; display: flex; align-items: center; gap: 9px; text-align: left; padding: {{ p.pad }}; border: 0; border-radius: 7px; background: {{ p.rowBg }}; cursor: pointer;" style-hover="background:{{ p.hoverBg }}" style-focus="outline:2px solid {{ p.accent }}; outline-offset:-2px">
+                      <span style="width: 22px; height: 22px; flex: none; border-radius: 5px; display: flex; align-items: center; justify-content: center; overflow: hidden; font-size: 10.5px; font-weight: 600; background-color: {{ p.tileBg }}; color: {{ p.tileFg }}; background-image: {{ p.tileImg }}; background-size: 17px 17px; background-position: center; background-repeat: no-repeat;">
+                        <sc-if value="{{ p.showTile }}" hint-placeholder-val="{{ true }}">{{ p.letter }}</sc-if>
+                      </span>
+                      <span style="flex: 1; min-width: 0; font-size: 13.5px; font-weight: 500; color: #1f1f1c; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ p.name }}</span>
+                      <sc-if value="{{ p.isLive }}">
+                        <span title="Live" style="flex: none; width: 6px; height: 6px; border-radius: 50%; background: oklch(0.65 0.14 150);"></span>
+                      </sc-if>
+                      <sc-if value="{{ p.hasBadge }}">
+                        <span style="flex: none; font-size: 9.5px; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; color: {{ p.badgeFg }}; background: {{ p.badgeBg }}; border: 1px solid {{ p.badgeBd }}; border-radius: 4px; padding: 1px 5px;">{{ p.badgeLabel }}</span>
+                      </sc-if>
+                    </button>
+                  </sc-for>
+                </div>
+              </sc-if>
+            </div>
+          </div>
+        </sc-for>
+        <sc-if value="{{ empty }}">
+          <div style="border: 1px dashed #ddd9d0; border-radius: 11px; padding: 34px; text-align: center;">
+            <div style="font-size: 14px; color: #56544d;">Nothing matches “{{ q }}”.</div>
+            <button onClick="{{ clearSearch }}" style="margin-top: 12px; border: 1px solid #ddd9d0; background: #ffffff; border-radius: 7px; padding: 6px 12px; font-size: 12.5px; cursor: pointer;" style-hover="border-color:#bbb7ac">Clear search</button>
+          </div>
+        </sc-if>
+      </div>
+
+      <sc-if value="{{ hasSel }}">
+        <aside style="flex: none; width: {{ panelWidth }}; align-self: flex-start; position: sticky; top: 18px; background: #ffffff; border: 1px solid #e4e1da; border-radius: 12px; padding: 16px 16px 18px; animation: atsIn 160ms ease-out; box-shadow: 0 1px 2px rgba(30,28,20,0.03), 0 8px 24px -18px rgba(30,28,20,0.25);">
+          <div style="display: flex; align-items: flex-start; gap: 11px;">
+            <span style="width: 30px; height: 30px; flex: none; border-radius: 7px; display: flex; align-items: center; justify-content: center; overflow: hidden; font-size: 13px; font-weight: 600; background-color: {{ sel.tileBg }}; color: {{ sel.tileFg }}; background-image: {{ sel.tileImg }}; background-size: 23px 23px; background-position: center; background-repeat: no-repeat;">
+              <sc-if value="{{ sel.showTile }}" hint-placeholder-val="{{ true }}">{{ sel.letter }}</sc-if>
+            </span>
+            <div style="flex: 1; min-width: 0;">
+              <div style="font-size: 16.5px; font-weight: 600; letter-spacing: -0.01em; color: #171715;">{{ sel.name }}</div>
+              <div style="margin-top: 3px; display: flex; align-items: center; gap: 7px; flex-wrap: wrap;">
+                <span style="display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; color: #6d6b63;">
+                  <span style="width: 7px; height: 7px; border-radius: 50%; background: {{ sel.accent }};"></span>{{ sel.categoryLabel }}
+                </span>
+                <span style="font-size: 9.5px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; color: {{ sel.badgeFg }}; background: {{ sel.badgeBg }}; border: 1px solid {{ sel.badgeBd }}; border-radius: 4px; padding: 2px 6px;">{{ sel.statusLabel }}</span>
+              </div>
+            </div>
+            <button onClick="{{ closePanel }}" aria-label="Close details" style="flex: none; border: 1px solid #e8e6e0; background: #ffffff; border-radius: 6px; width: 24px; height: 24px; line-height: 1; cursor: pointer; color: #8b887f;" style-hover="border-color:#c9c5ba; color:#1b1b19">×</button>
+          </div>
+
+          <sc-if value="{{ sel.hasUrl }}">
+            <a href="{{ sel.url }}" target="_blank" rel="noopener" style="display: block; margin-top: 13px; font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; word-break: break-all;">{{ sel.urlLabel }}</a>
+          </sc-if>
+
+          <p style="margin: 14px 0 0; font-size: 13.5px; line-height: 1.55; color: #40403a; text-wrap: pretty;">{{ sel.description }}</p>
+
+          <div style="margin-top: 17px; display: flex; flex-wrap: wrap; gap: 6px;">
+            <sc-if value="{{ sel.hasUrl }}">
+              <a href="{{ sel.url }}" target="_blank" rel="noopener" style="font-size: 12.5px; font-weight: 500; border: 1px solid #dcd9d1; border-radius: 7px; padding: 6px 11px; text-decoration: none; color: #1b1b19;" style-hover="border-color:#b9b5aa; text-decoration:none">Website ↗</a>
+            </sc-if>
+            <sc-if value="{{ sel.hasRepo }}">
+              <a href="{{ sel.repo }}" target="_blank" rel="noopener" style="font-size: 12.5px; font-weight: 500; border: 1px solid #dcd9d1; border-radius: 7px; padding: 6px 11px; text-decoration: none; color: #1b1b19;" style-hover="border-color:#b9b5aa; text-decoration:none">Repo ↗</a>
+            </sc-if>
+            <sc-if value="{{ sel.hasHandle }}">
+              <a href="{{ sel.handleUrl }}" target="_blank" rel="noopener" style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; border: 1px solid #dcd9d1; border-radius: 7px; padding: 6px 11px; text-decoration: none; color: #1b1b19;" style-hover="border-color:#b9b5aa; text-decoration:none">@{{ sel.handle }}</a>
+            </sc-if>
+          </div>
+        </aside>
+      </sc-if>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;rowDensity&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;comfortable&quot;, &quot;compact&quot;], &quot;default&quot;: &quot;comfortable&quot;, &quot;tsType&quot;: &quot;\&quot;comfortable\&quot; | \&quot;compact\&quot;&quot;, &quot;section&quot;: &quot;View&quot; },
+  &quot;tintedHeaders&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Style&quot; }
+}">
+/* ============================================================================
+   THE ONLY THING YOU NEED TO EDIT — all content lives in these two objects.
+   Add a project  = append one object to PROJECTS.
+   Add a category = add one key to CATEGORIES (label + accent color).
+   Icons come from the project's `url` favicon automatically; set an optional
+   `icon: "https://.../logo.svg"` to override it (wins over the favicon probe).
+   Layout, counts and grid placement are all derived from this data.
+   ============================================================================ */
+
+const CATEGORIES = {
+  "annotation-knowledge-tools": { label: "Annotation & knowledge tools", accent: "oklch(0.55 0.15 255)" },
+  "publishing": { label: "Publishing", accent: "oklch(0.58 0.14 62)" },
+  "data": { label: "Data", accent: "oklch(0.55 0.15 305)" },
+  "social-apps-for-researchers": { label: "Social apps for researchers", accent: "oklch(0.53 0.13 150)" },
+  "evaluation": { label: "Evaluation", accent: "oklch(0.54 0.14 15)" },
+  "citizen-science": { label: "Citizen science", accent: "oklch(0.50 0.13 135)" },
+  "ai": { label: "AI", accent: "oklch(0.54 0.12 205)" },
+  "feeds": { label: "Feeds", accent: "oklch(0.55 0.12 180)" },
+  "hosting": { label: "Hosting", accent: "oklch(0.54 0.14 275)" },
+  "networking": { label: "Networking", accent: "oklch(0.55 0.15 335)" },
+  "version-control": { label: "Version control", accent: "oklch(0.52 0.11 110)" },
+  "communities": { label: "Communities", accent: "oklch(0.55 0.13 95)" },
+};
+
+const PROJECTS = [
+  { name: "Margin.at", category: "annotation-knowledge-tools", description: "Social bookmarks and annotations on ATProto", url: "https://margin.at", repo: "https://tangled.org/margin.at/margin", handle: "margin.at", status: "live" },
+  { name: "Semble", category: "annotation-knowledge-tools", description: "A social knowledge network for following your peers' research trails.", url: "https://semble.so", repo: "https://github.com/cosmik-network/semble", handle: "semble.so", status: "live" },
+  { name: "Skysquare", category: "annotation-knowledge-tools", description: "Social annotation and context layer over articles", url: "https://skysquare.app/", repo: "https://github.com/Industrial-Semiotics", handle: "skysquare.app", status: "live" },
+  { name: "BlueNotes", category: "annotation-knowledge-tools", description: "Specifications for an open and interoperable Community Notes protocol by Johnathan Warden", repo: "https://github.com/johnwarden/bluenotes", icon: "https://github.com/favicon.ico", status: "code" },
+  { name: "Layers", category: "annotation-knowledge-tools", description: "Linguistic annotation on ATProto", url: "https://layers.pub/", repo: "https://github.com/layers-pub/layers", icon: "https://layers.pub/logo.png", status: "in-development" },
+  { name: "ViewSift", category: "annotation-knowledge-tools", description: "Evidence-based discussion platform", url: "https://viewsift.com/", icon: "https://viewsift.com/assets/assets/icon-small.f76b4f4d9bfdee0d13e559917c7352d3.png", status: "in-development" },
+  { name: "SciOS Graph Infrastructure", category: "annotation-knowledge-tools", description: "Graph-based interface for creating and viewing modular research components, using the mira.science (Discourse Graphs) schema", url: "https://graph.scios.tech/", icon: "https://www.scios.tech/favicon.ico", handle: "scios.tech", status: "concept" },
+  { name: "Chive", category: "publishing", description: "Decentralized eprints on ATProto", url: "https://chive.pub", repo: "https://github.com/chive-pub/chive", icon: "https://chive.pub/chive-logo.svg", handle: "chive.pub", status: "live" },
+  { name: "Octosphere", category: "publishing", description: "Automatically syncs research publications from octopus.ac to ATProto", url: "https://octosphere.social/", repo: "https://github.com/AndreasThinks/octosphere", status: "live" },
+  { name: "Standard.site", category: "publishing", description: "Shared lexicons for long-form publishing, implemented by Leaflet, Offprint, Pckt and others.", url: "https://standard.site", repo: "https://tangled.org/standard.site", handle: "standard.site", status: "live" },
+  { name: "Groundmist.xyz", category: "publishing", description: "Experiments exploring the intersection of AT Protocol and the local-first software paradigm", url: "https://groundmist.xyz/", repo: "https://github.com/grjte", status: "concept" },
+  { name: "Matadisco", category: "data", description: "An open, decentralized network for data discovery on AT Protocol", url: "https://matadisco.org/", repo: "https://github.com/ipfs-fdn/matadisco", status: "live" },
+  { name: "atdata", category: "data", description: "Type-safe, composable framework for working with large-scale datasets, using atproto for publishing and discovery", url: "https://github.com/forecast-bio/atdata", repo: "https://github.com/forecast-bio/atdata", status: "code" },
+  { name: "nebra", category: "data", description: "Stream scientific data live on the ATProtocol, with a simple, fast Python module.", url: "https://github.com/the-astrosky-ecosystem/nebra", status: "code" },
+  { name: "Habitat", category: "data", description: "Open-source data ownership layer for organizations", url: "https://habitat.network/", repo: "https://github.com/habitat-network/habitat", handle: "habitat.network", status: "in-development" },
+  { name: "Lea", category: "social-apps-for-researchers", description: "A Bluesky client for researchers", url: "https://lea.ac/", repo: "https://github.com/eugenevinitsky/lea", status: "live" },
+  { name: "Paperstars", category: "evaluation", description: "Paperstars is a platform where researchers can rate and review published scientific papers", url: "https://paperstars.org/", handle: "paperstarsorg.bsky.social", status: "live" },
+  { name: "Observ.ing", category: "citizen-science", description: "A decentralized platform for biodiversity observations (like iNaturalist on AT Protocol)", url: "https://observ.ing/", icon: "https://observ.ing/favicon.svg", handle: "observ.ing", status: "live" },
+  { name: "lexicons.bio", category: "citizen-science", description: "AT Protocol record schemas for biodiversity observations", url: "https://lexicons.bio/", status: "code" },
+  { name: "Tiles", category: "ai", description: "Local-first AI using ATproto for data sharing", url: "https://www.tiles.run/", repo: "https://github.com/tilesprivacy", handle: "tiles.run", status: "live" },
+  { name: "co/core AI cooperative", category: "ai", description: "Platform for people to share compute they own to run open AI models for each other", url: "https://console.cocore.dev/", repo: "https://github.com/graze-social/cocore", icon: "https://cocore.dev/favicon.svg", handle: "cocore.dev", status: "live" },
+  { name: "BioKEA", category: "ai", description: "Knowledge-graph extraction over biomedical literature as open records.", handle: "biokeaai.bsky.social", status: "in-development" },
+  { name: "hypgen", category: "ai", description: "Machine-assisted hypothesis generation from the published record.", url: "https://hypgen.ai/", status: "concept" },
+  { name: "GreenEarth Social", category: "feeds", description: "Advanced open source algorithms for social media on ATProto", url: "https://www.greenearth.social/", repo: "https://github.com/greenearth-social", handle: "greenearth.social", status: "live" },
+  { name: "Paper Skygest", category: "feeds", description: "Personalized research feeds on Bluesky", repo: "https://github.com/Skygest/PaperSkygest", icon: "https://cdn.bsky.app/img/avatar/plain/did:plc:uaadt6f5bbda6cycbmatcm3z/bafkreib4g73yid32e3cmrktreed4edkwktbgctmxjegdtqsywiymcgy34y", handle: "paper-feed.bsky.social", status: "live" },
+  { name: "Aster.id", category: "hosting", description: "PDS hosting for labs, institutions and individual researchers.", status: "in-development" },
+  { name: "Sifa", category: "networking", description: "Professional identity on ATProto with ORCID integration", url: "https://sifa.id/", repo: "https://github.com/singi-labs/sifa-workspace", handle: "sifa.id", status: "live" },
+  { name: "tangled", category: "version-control", description: "Git collaboration on atproto — repos, issues and reviews as records.", url: "https://tangled.sh", repo: "https://tangled.sh/@tangled.sh/core", handle: "tangled.sh", status: "live" },
+  { name: "Astrosky", category: "communities", description: "Ecosystem of online tools for the space science & astronomy communities", url: "https://astrosky.eco ", repo: "https://github.com/the-astrosky-ecosystem", status: "live" },
+  { name: "MedSky", category: "communities", description: "A community and content labeler network for healthcare workers and researchers on Bluesky.", url: "https://medsky.network/account", icon: "https://cdn.bsky.app/img/avatar/plain/did:plc:hd564mpf6bekrwzyhvujs54b/bafkreihww5wxopeqt22eykarbfisckey4kpv4e3hhe4gmaaayxmqyiwo3i", handle: "medsky.network", status: "live" },
+];
+
+/* ===================== end of editable data ================================ */
+
+const STATUS = {
+  live:             { label: "Live",            fg: "oklch(0.44 0.11 150)", bg: "oklch(0.97 0.03 150)", bd: "oklch(0.90 0.05 150)" },
+  "in-development": { label: "In development",  fg: "oklch(0.46 0.13 55)",  bg: "oklch(0.97 0.03 55)",  bd: "oklch(0.90 0.06 55)" },
+  beta:             { label: "Beta",             fg: "#4c4b45",              bg: "#f4f3ef",              bd: "#e3e1da" },
+  alpha:            { label: "Alpha",            fg: "#827f77",              bg: "#f8f7f4",              bd: "#ecebe5" },
+  code:             { label: "Code",             fg: "oklch(0.42 0.13 250)", bg: "oklch(0.97 0.02 250)", bd: "oklch(0.90 0.05 250)" },
+  concept:          { label: "Concept",          fg: "#94918a",              bg: "#fbfaf8",              bd: "#efeeea" },
+  "coming-soon":    { label: "Coming soon",      fg: "#94918a",              bg: "#fbfaf8",              bd: "#efeeea" },
+};
+const FALLBACK_ACCENT = "oklch(0.55 0.02 90)";
+
+function statusOf(p) { return STATUS[p.status] || STATUS.concept; }
+function catOf(p) { return CATEGORIES[p.category] || { label: "Uncategorized", accent: FALLBACK_ACCENT }; }
+function mix(color, pct, base) { return "color-mix(in oklab, " + color + " " + pct + "%, " + base + ")"; }
+function hostOf(url) { try { return new URL(url).hostname; } catch (e) { return null; } }
+
+class Component extends DCLogic {
+  state = { q: "", sel: null, open: {}, icons: {}, narrow: false };
+
+  // Probe each project's icon out-of-DOM: explicit `icon`, else DuckDuckGo, then
+  // Google, then give up and let the letter tile stand. No broken <img> ever.
+  probeIcons() {
+    PROJECTS.forEach((p) => {
+      const host = p.url ? hostOf(p.url) : null;
+      const candidates = p.icon ? [p.icon] : (host ? [
+        "https://icons.duckduckgo.com/ip3/" + host + ".ico",
+        "https://www.google.com/s2/favicons?domain=" + host + "&sz=64",
+      ] : []);
+      if (!candidates.length) return;
+      const tryNext = (i) => {
+        if (i >= candidates.length || !this.mounted) return;
+        const img = new Image();
+        img.onload = () => {
+          if (!this.mounted) return;
+          if (img.naturalWidth && img.naturalWidth < 8) return tryNext(i + 1);
+          this.setState((s) => {
+            const next = Object.assign({}, s.icons);
+            next[p.name] = candidates[i];
+            return { icons: next };
+          });
+        };
+        img.onerror = () => tryNext(i + 1);
+        img.src = candidates[i];
+      };
+      tryNext(0);
+    });
+  }
+
+  setRoot = (el) => {
+    if (!el || el === this.rootEl) return;
+    this.rootEl = el;
+    if (this.ro) this.ro.disconnect();
+    this.ro = new ResizeObserver((entries) => {
+      const narrow = entries[0].contentRect.width < 760;
+      if (narrow !== this.state.narrow) this.setState({ narrow: narrow });
+    });
+    this.ro.observe(el);
+  };
+
+  componentDidMount() {
+    this.mounted = true;
+    this.probeIcons();
+    this.onKey = (e) => { if (e.key === "Escape" && this.state.sel) this.setState({ sel: null }); };
+    document.addEventListener("keydown", this.onKey);
+  }
+  componentWillUnmount() {
+    this.mounted = false;
+    if (this.ro) this.ro.disconnect();
+    document.removeEventListener("keydown", this.onKey);
+  }
+
+  matches(p) {
+    const q = this.state.q.trim().toLowerCase();
+    if (!q) return true;
+    const hay = [p.name, p.description, catOf(p).label, p.handle || "", p.status || ""].join(" ").toLowerCase();
+    return q.split(/\s+/).every((t) => hay.indexOf(t) !== -1);
+  }
+
+  toggleGroup(key) {
+    this.setState((s) => {
+      const next = Object.assign({}, s.open);
+      next[key] = !(key in next ? next[key] : this.defaultOpen(key));
+      return { open: next };
+    });
+  }
+  defaultOpen(key) { return !(this.state.narrow && this.narrowClosed.indexOf(key) !== -1); }
+
+  projectVM(p, accent, pad, key) {
+    const st = statusOf(p);
+    const iconSrc = this.state.icons[p.name] || null;
+    const isLive = p.status === "live";
+    return {
+      key: key,
+      name: p.name,
+      pad: pad,
+      accent: accent,
+      letter: p.name.replace(/[^A-Za-z0-9]/g, "").charAt(0).toUpperCase() || "•",
+      tileImg: iconSrc ? 'url("' + iconSrc + '")' : "none",
+      showTile: !iconSrc,
+      tileBg: iconSrc ? "#ffffff" : mix(accent, 14, "#ffffff"),
+      tileFg: accent,
+      onSelect: () => this.setState({ sel: p.name }),
+      rowBg: this.state.sel === p.name ? mix(accent, 9, "#ffffff") : "transparent",
+      hoverBg: this.state.sel === p.name ? mix(accent, 12, "#ffffff") : "#f7f6f2",
+      isLive: isLive,
+      hasBadge: !isLive,
+      badgeLabel: st.label,
+      badgeFg: st.fg, badgeBg: st.bg, badgeBd: st.bd,
+    };
+  }
+
+  groupVM(raw, pad, forceOpen) {
+    const accent = raw.accent;
+    const key = "cat:" + raw.key;
+    const open = forceOpen || (key in this.state.open ? this.state.open[key] : this.defaultOpen(key));
+    const tinted = this.props.tintedHeaders !== false;
+    return {
+      key: key,
+      label: raw.label,
+      accent: accent,
+      count: raw.items.length,
+      open: open,
+      chev: open ? "▾" : "▸",
+      onToggle: () => this.toggleGroup(key),
+      headerBg: tinted ? mix(accent, 7, "#ffffff") : "#ffffff",
+      headerBd: tinted ? mix(accent, 20, "#ffffff") : "#eeece6",
+      labelColor: tinted ? mix(accent, 88, "#000000") : "#2b2b26",
+      items: raw.items.map((p, i) => this.projectVM(p, accent, pad, key + "/" + p.name + "/" + i)),
+    };
+  }
+
+  catGroups(list) {
+    const groups = Object.keys(CATEGORIES).map((k) => ({
+      key: k, label: CATEGORIES[k].label, accent: CATEGORIES[k].accent,
+      items: list.filter((p) => p.category === k),
+    }));
+    const orphans = list.filter((p) => !CATEGORIES[p.category]);
+    if (orphans.length) groups.push({ key: "__other", label: "Uncategorized", accent: FALLBACK_ACCENT, items: orphans });
+    return groups.filter((g) => g.items.length);
+  }
+
+  selVM() {
+    const p = PROJECTS.filter((x) => x.name === this.state.sel)[0];
+    if (!p) return null;
+    const cat = catOf(p);
+    const base = this.projectVM(p, cat.accent, "0", "sel/" + p.name);
+    return Object.assign(base, {
+      description: p.description,
+      categoryLabel: cat.label,
+      statusLabel: statusOf(p).label,
+      hasUrl: !!p.url, url: p.url || "#",
+      urlLabel: (p.url || "").replace(/^https?:\/\//, "").replace(/\/$/, ""),
+      hasRepo: !!p.repo, repo: p.repo || "#",
+      hasHandle: !!p.handle, handle: p.handle || "", handleUrl: p.handle ? "https://bsky.app/profile/" + p.handle : "#",
+    });
+  }
+
+  renderVals() {
+    const q = this.state.q;
+    const hasQuery = q.trim().length > 0;
+    const pad = (this.props.rowDensity || "comfortable") === "compact" ? "5px 8px" : "7px 8px";
+    const shown = PROJECTS.filter((p) => this.matches(p));
+    const raw = this.catGroups(shown);
+    this.narrowClosed = raw.slice(1).map((g) => "cat:" + g.key);
+    const sel = this.selVM();
+
+    return {
+      setRoot: this.setRoot,
+      q: q,
+      hasQuery: hasQuery,
+      onSearch: (e) => this.setState({ q: e.target.value }),
+      clearSearch: () => this.setState({ q: "" }),
+      metaLine: PROJECTS.length + " projects · " + this.catGroups(PROJECTS).length + " categories",
+      matchLine: shown.length + " matching",
+      groups: raw.map((g) => this.groupVM(g, pad, hasQuery)),
+      empty: raw.length === 0,
+      colWidth: this.state.narrow ? "100%" : "296px",
+      mainDir: this.state.narrow ? "column-reverse" : "row",
+      panelWidth: this.state.narrow ? "100%" : "342px",
+      hasSel: !!sel,
+      sel: sel,
+      closePanel: () => this.setState({ sel: null }),
+    };
+  }
+}
+</script>
+</body>
+</html>
