@@ -162,9 +162,10 @@ export default function(eleventyConfig) {
       .sort((a, b) => a.data?.title?.localeCompare(b.data?.title) || 0)
   )
 
-  // Path configuration for different deployment scenarios:
-  const pathPrefix = '/' // (un)comment this line deployment to production or localhost
-  // const pathPrefix = '/at-science-homepage/' // (un)comment this line GitHub Pages deployment
+  // Path configuration for different deployment scenarios.
+  // Production (root domain) builds with no PATH_PREFIX set.
+  // The dev preview workflow sets PATH_PREFIX=/dev/ to build for atproto.science/dev/.
+  const pathPrefix = process.env.PATH_PREFIX || '/'
 
   return {
     dataTemplateEngine: 'njk',

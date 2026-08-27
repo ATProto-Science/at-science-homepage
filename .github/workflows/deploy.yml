@@ -1,0 +1,89 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC (main only)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-${{ github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      path_prefix: ${{ steps.vars.outputs.path_prefix }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Set path prefix
+        id: vars
+        run: |
+          if [ "${{ github.ref_name }}" = "main" ]; then
+            echo "path_prefix=/" >> "$GITHUB_OUTPUT"
+          else
+            echo "path_prefix=/dev/" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build with Eleventy
+        run: npm run-script build
+        env:
+          ELEVENTY_ENV: production
+          PATH_PREFIX: ${{ steps.vars.outputs.path_prefix }}
+
+      - name: Upload build
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ github.ref_name }}
+          path: _site
+          retention-days: 1
+
+  deploy-main:
+    if: github.ref_name == 'main'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build
+        uses: actions/download-artifact@v4
+        with:
+          name: site-main
+          path: _site
+
+      - name: Deploy to gh-pages (site root)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          keep_files: true
+          cname: atproto.science
+
+  deploy-dev:
+    if: github.ref_name == 'dev'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build
+        uses: actions/download-artifact@v4
+        with:
+          name: site-dev
+          path: _site
+
+      - name: Deploy to gh-pages (/dev/ subpath)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          destination_dir: dev
+          keep_files: true
