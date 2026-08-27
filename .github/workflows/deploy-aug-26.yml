@@ -46,8 +46,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-Community
-Docs
-Contact
-Manage cookies
-Do not share my personal information
