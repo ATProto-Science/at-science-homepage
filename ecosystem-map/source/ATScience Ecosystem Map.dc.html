@@ -136,6 +136,10 @@
         </aside>
       </sc-if>
     </div>
+
+    <div style="margin-top: 30px; padding-top: 18px; border-top: 1px solid #e8e6e0; text-align: center;">
+      <p style="margin: 0; font-size: 12.5px; color: #8b887f;">Don't see your project? <a href="{{ submitFormUrl }}" target="_blank" rel="noopener">Submit it here</a> | Drop us a line at <a href="mailto:hello@atproto.science">hello@atproto.science</a> for feedback or corrections.</p>
+    </div>
   </div>
 </div>
 </x-dc>
@@ -199,6 +203,7 @@ const PROJECTS = [
   { name: "Paper Skygest", category: "feeds", description: "Personalized research feeds on Bluesky", repo: "https://github.com/Skygest/PaperSkygest", icon: "https://cdn.bsky.app/img/avatar/plain/did:plc:uaadt6f5bbda6cycbmatcm3z/bafkreib4g73yid32e3cmrktreed4edkwktbgctmxjegdtqsywiymcgy34y", handle: "paper-feed.bsky.social", status: "live" },
   { name: "Aster.id", category: "hosting", description: "PDS hosting for labs, institutions and individual researchers.", status: "in-development" },
   { name: "Sifa", category: "networking", description: "Professional identity on ATProto with ORCID integration", url: "https://sifa.id/", repo: "https://github.com/singi-labs/sifa-workspace", handle: "sifa.id", status: "live" },
+  { name: "Catalyze", category: "funding", description: "Open platform for discovering, sharing, and funding transformative research", url: "https://catalyzernd.com/", status: "live" },
   { name: "Hypercerts", category: "funding", description: "Hypercerts are structured and verifiable records of work, designed to inform impact funding allocation. Built on AT Protocol.", url: "https://hypercerts.org/", repo: "https://github.com/hypercerts-org", handle: "hypercerts.org", status: "live" },
   { name: "tangled", category: "version-control", description: "Git collaboration on atproto — repos, issues and reviews as records.", url: "https://tangled.sh", repo: "https://tangled.sh/@tangled.sh/core", handle: "tangled.sh", status: "live" },
   { name: "Astrosky", category: "communities", description: "Ecosystem of online tools for the space science & astronomy communities", url: "https://astrosky.eco ", repo: "https://github.com/the-astrosky-ecosystem", status: "live" },
@@ -206,6 +211,8 @@ const PROJECTS = [
 ];
 
 /* ===================== end of editable data ================================ */
+
+const SUBMIT_FORM_URL = "https://forms.atproto.science/submit-project";
 
 const STATUS = {
   live:             { label: "Live",            fg: "oklch(0.44 0.11 150)", bg: "oklch(0.97 0.03 150)", bd: "oklch(0.90 0.05 150)" },
@@ -388,6 +395,7 @@ class Component extends DCLogic {
       hasSel: !!sel,
       sel: sel,
       closePanel: () => this.setState({ sel: null }),
+      submitFormUrl: SUBMIT_FORM_URL,
     };
   }
 }
